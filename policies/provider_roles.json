@@ -1,0 +1,91 @@
+{
+  "note": "Role assignment per user's 3-brain model (2026-08-15). Auth status is real (verified via `opencode auth list`); role/priority is policy, not a capability measurement.",
+  "roles": [
+    {
+      "role_id": "premium_deep_reasoning",
+      "label": "Claude",
+      "provider_id": "anthropic",
+      "priority": "HARD_TASKS",
+      "use_for": [
+        "ARCHITECTURE",
+        "SECURITY",
+        "MAJOR_REFACTOR",
+        "DIFFICULT_DEBUGGING",
+        "HIGH_RISK_DECISION",
+        "FINAL_REVIEW",
+        "RESEARCH_SYNTHESIS"
+      ],
+      "cost_class": "HIGH",
+      "auth_status": "AUTHENTICATED via Claude Code CLI (this session, verified continuously)"
+    },
+    {
+      "role_id": "second_premium_brain",
+      "label": "GPT/Codex",
+      "provider_id": "openai",
+      "priority": "HARD_TASKS_CODE",
+      "use_for": [
+        "IMPLEMENTATION",
+        "INDEPENDENT_REVIEW",
+        "MEDIUM_DEBUGGING",
+        "SECOND_OPINION_ARCHITECTURE"
+      ],
+      "cost_class": "HIGH",
+      "auth_status": "AUTHENTICATED - verified 2026-08-15 via codex login status + real end-to-end dispatch (gpt-5.6-terra)"
+    },
+    {
+      "role_id": "workhorse_fallback",
+      "label": "OpenCode Go (workhorse tier)",
+      "provider_id": "opencode-go",
+      "priority": "HIGH_VOLUME",
+      "use_for": [
+        "ROUTINE_IMPLEMENTATION",
+        "TESTING",
+        "DOCUMENTATION",
+        "EXPLORATION",
+        "TRANSFORMATION",
+        "FIRST_PASS_RESEARCH",
+        "BACKGROUND_TASK",
+        "SIMPLE_EDIT"
+      ],
+      "cost_class": "FREE_OR_LOW",
+      "auth_status": "LIVE NOW - 19 opencode-go/* models (authenticated real subscription, verified 2026-08-15)."
+    },
+    {
+      "role_id": "free_tier_first_resort",
+      "label": "OpenCode Zen (free tier)",
+      "provider_id": "opencode-zen",
+      "priority": "HIGH_VOLUME",
+      "use_for": [
+        "SIMPLE_EDIT",
+        "FORMATTING",
+        "BASIC_TRANSFORM",
+        "PREPROCESSING"
+      ],
+      "cost_class": "FREE_OR_LOW",
+      "auth_status": "LIVE NOW - 7 free opencode/* models, no credential needed.",
+      "note_added_2026-08-15": "Real bug fixed: this role was missing entirely, which meant model_selector.py's cost sort gave opencode-zen models the WORST cost rank by default (falling through to len(COST_ORDER)) instead of their actual FREE_OR_LOW cost - i.e. the free tier could never beat the paid opencode-go tier on cost, backwards from intent."
+    },
+    {
+      "role_id": "zero_cost_local",
+      "label": "Ollama (local, free)",
+      "provider_id": "ollama",
+      "priority": "HIGH_VOLUME",
+      "use_for": [
+        "SIMPLE_EDIT",
+        "FORMATTING",
+        "BASIC_TRANSFORM",
+        "PREPROCESSING",
+        "CLASSIFICATION"
+      ],
+      "cost_class": "FREE_OR_LOW",
+      "auth_status": "LIVE - local, no credential needed, verified 2026-08-15 via real dispatch (qwen2.5-coder:7b, Tier C benchmarked)",
+      "note_added_2026-08-15": "Strategic role: zero-cost, zero network latency, no subscription reset to worry about - ideal for classification/preprocessing/cheap first-pass work that protects paid capacity. Real gap fixed: this role was missing entirely (same bug class as opencode-zen earlier), which would have given ollama the worst cost rank by default instead of its actual free cost."
+    }
+  ],
+  "real_auth_status_2026-08-15": {
+    "anthropic": "Claude Code CLI authenticated (this session). NOT usable inside OpenCode - Anthropic's subscription OAuth is scoped to the Claude Code client only, OpenCode's Anthropic login wants a separate paid API key.",
+    "openai": "AUTHENTICATED - verified via codex login status + real end-to-end dispatch. Model: gpt-5.6-terra.",
+    "opencode-go": "AUTHENTICATED - real subscription, 1 credential confirmed via `opencode auth list`, 26 models confirmed via `opencode models`."
+  },
+  "hard_rule": "A role's `use_for` task types set its ELIGIBILITY, not a guarantee of selection - the router still enforces registry/models capability_tier + policies/capability_tiers.json floor on top of this. A HARD_TASKS role with an unauthenticated/unbenchmarked provider is NEVER substituted with a lower tier silently - see policies/fallback_chains.json and model_selector.py's BLOCKED path."
+}

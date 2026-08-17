@@ -1,0 +1,204 @@
+# SKILL DUPLICATES
+
+244 duplicate name groups (showing up to 200)
+
+- **accessibility** (4x): skills_live, skills_live, skills_library, skills_library
+- **agent-eval** (4x): skills_live, skills_live, skills_library, skills_library
+- **android-clean-architecture** (4x): skills_live, skills_live, skills_library, skills_library
+- **api-design** (7x): skills_live, skills_live, skills_library, skills_library, skills_library, skills_library, skills_library
+- **backend-patterns** (10x): skills_live, skills_live, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **brand-voice** (5x): skills_live, skills_live, skills_library, skills_library, skills_library
+- **browser-qa** (3x): skills_live, skills_live, skills_library
+- **continuous-learning** (8x): skills_live, skills_live, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **continuous-learning-v2** (8x): skills_live, skills_live, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **council** (4x): skills_live, skills_live, skills_library, skills_library
+- **database-migrations** (6x): skills_live, skills_live, skills_library, skills_library, skills_library, skills_library
+- **deep-research** (5x): skills_live, skills_live, skills_library, skills_library, skills_library
+- **deployment-patterns** (6x): skills_live, skills_live, skills_library, skills_library, skills_library, skills_library
+- **design-review** (2x): skills_live, skills_library
+- **design-system** (4x): skills_live, skills_live, skills_library, skills_library
+- **django-patterns** (6x): skills_live, skills_live, skills_library, skills_library, skills_library, skills_library
+- **docker-patterns** (6x): skills_live, skills_live, skills_library, skills_library, skills_library, skills_library
+- **e2e-testing** (7x): skills_live, skills_live, skills_library, skills_library, skills_library, skills_library, skills_library
+- **error-handling** (2x): skills_live, skills_library
+- **eval-harness** (9x): skills_live, skills_live, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **exa-search** (5x): skills_live, skills_live, skills_library, skills_library, skills_library
+- **fastapi-patterns** (2x): skills_live, skills_library
+- **frontend-patterns** (10x): skills_live, skills_live, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **git-workflow** (4x): skills_live, skills_live, skills_library, skills_library
+- **high-end-visual-design** (2x): skills_live, skills_library
+- **knowledge-ops** (4x): skills_live, skills_live, skills_library, skills_library
+- **kotlin-patterns** (5x): skills_live, skills_live, skills_library, skills_library, skills_library
+- **laravel-patterns** (5x): skills_live, skills_live, skills_library, skills_library, skills_library
+- **lead-intelligence** (4x): skills_live, skills_live, skills_library, skills_library
+- **market-research** (6x): skills_live, skills_live, skills_library, skills_library, skills_library, skills_library
+- **motion-ui** (2x): skills_live, skills_library
+- **mysql-patterns** (2x): skills_live, skills_library
+- **nuxt4-patterns** (4x): skills_live, skills_live, skills_library, skills_library
+- **postgres-patterns** (9x): skills_live, skills_live, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **prisma-patterns** (2x): skills_live, skills_library
+- **python-patterns** (7x): skills_live, skills_live, skills_library, skills_library, skills_library, skills_library, skills_library
+- **python-testing** (7x): skills_live, skills_live, skills_library, skills_library, skills_library, skills_library, skills_library
+- **redesign-existing-projects** (2x): skills_live, skills_library
+- **redis-patterns** (2x): skills_live, skills_library
+- **remotion-video-creation** (4x): skills_live, skills_live, skills_library, skills_library
+- **research-ops** (4x): skills_live, skills_live, skills_library, skills_library
+- **security-scan** (5x): skills_live, skills_live, skills_library, skills_library, skills_library
+- **seo** (4x): skills_live, skills_live, skills_library, skills_library
+- **springboot-patterns** (6x): skills_live, skills_live, skills_library, skills_library, skills_library, skills_library
+- **swiftui-patterns** (4x): skills_live, skills_live, skills_library, skills_library
+- **token-budget-advisor** (4x): skills_live, skills_live, skills_library, skills_library
+- **video-editing** (5x): skills_live, skills_live, skills_library, skills_library, skills_library
+- **visa-doc-translate** (4x): skills_live, skills_live, skills_library, skills_library
+- **vite-patterns** (2x): skills_live, skills_library
+- **agent-architecture-audit** (2x): skills_library, skills_library
+- **agent-harness-construction** (4x): skills_library, skills_library, skills_library, skills_library
+- **agent-introspection-debugging** (5x): skills_library, skills_library, skills_library, skills_library, skills_library
+- **agent-payment-x402** (4x): skills_library, skills_library, skills_library, skills_library
+- **agent-sort** (5x): skills_library, skills_library, skills_library, skills_library, skills_library
+- **agentic-engineering** (5x): skills_library, skills_library, skills_library, skills_library, skills_library
+- **agentic-os** (2x): skills_library, skills_library
+- **ai-first-engineering** (4x): skills_library, skills_library, skills_library, skills_library
+- **ai-regression-testing** (4x): skills_library, skills_library, skills_library, skills_library
+- **angular-developer** (2x): skills_library, skills_library
+- **api-connector-builder** (4x): skills_library, skills_library, skills_library, skills_library
+- **architecture-decision-records** (4x): skills_library, skills_library, skills_library, skills_library
+- **article-writing** (6x): skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **automation-audit-ops** (4x): skills_library, skills_library, skills_library, skills_library
+- **autonomous-agent-harness** (4x): skills_library, skills_library, skills_library, skills_library
+- **autonomous-loops** (4x): skills_library, skills_library, skills_library, skills_library
+- **benchmark** (4x): skills_library, skills_library, skills_library, skills_library
+- **blueprint** (4x): skills_library, skills_library, skills_library, skills_library
+- **industrial-brutalist-ui** (2x): skills_library, skills_library
+- **bun-runtime** (6x): skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **canary-watch** (4x): skills_library, skills_library, skills_library, skills_library
+- **carrier-relationship-management** (4x): skills_library, skills_library, skills_library, skills_library
+- **caveman** (2x): skills_library, skills_library
+- **cisco-ios-patterns** (2x): skills_library, skills_library
+- **ck** (4x): skills_library, skills_library, skills_library, skills_library
+- **claude-devfleet** (4x): skills_library, skills_library, skills_library, skills_library
+- **click-path-audit** (4x): skills_library, skills_library, skills_library, skills_library
+- **clickhouse-io** (7x): skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **code-tour** (4x): skills_library, skills_library, skills_library, skills_library
+- **codebase-onboarding** (4x): skills_library, skills_library, skills_library, skills_library
+- **coding-standards** (10x): skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **compose-multiplatform-patterns** (4x): skills_library, skills_library, skills_library, skills_library
+- **configure-ecc** (5x): skills_library, skills_library, skills_library, skills_library, skills_library
+- **connections-optimizer** (4x): skills_library, skills_library, skills_library, skills_library
+- **content-engine** (6x): skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **content-hash-cache-pattern** (4x): skills_library, skills_library, skills_library, skills_library
+- **context-budget** (4x): skills_library, skills_library, skills_library, skills_library
+- **continuous-agent-loop** (4x): skills_library, skills_library, skills_library, skills_library
+- **cost-aware-llm-pipeline** (4x): skills_library, skills_library, skills_library, skills_library
+- **cost-tracking** (2x): skills_library, skills_library
+- **cpp-coding-standards** (4x): skills_library, skills_library, skills_library, skills_library
+- **cpp-testing** (5x): skills_library, skills_library, skills_library, skills_library, skills_library
+- **crosspost** (5x): skills_library, skills_library, skills_library, skills_library, skills_library
+- **csharp-testing** (4x): skills_library, skills_library, skills_library, skills_library
+- **customer-billing-ops** (4x): skills_library, skills_library, skills_library, skills_library
+- **customs-trade-compliance** (4x): skills_library, skills_library, skills_library, skills_library
+- **dart-flutter-patterns** (4x): skills_library, skills_library, skills_library, skills_library
+- **dashboard-builder** (4x): skills_library, skills_library, skills_library, skills_library
+- **data-scraper-agent** (4x): skills_library, skills_library, skills_library, skills_library
+- **defi-amm-security** (4x): skills_library, skills_library, skills_library, skills_library
+- **design-consultation** (2x): skills_library, skills_library
+- **design-taste-frontend** (2x): skills_library, skills_library
+- **django-celery** (2x): skills_library, skills_library
+- **django-security** (5x): skills_library, skills_library, skills_library, skills_library, skills_library
+- **django-tdd** (5x): skills_library, skills_library, skills_library, skills_library, skills_library
+- **django-verification** (5x): skills_library, skills_library, skills_library, skills_library, skills_library
+- **dmux-workflows** (5x): skills_library, skills_library, skills_library, skills_library, skills_library
+- **documentation-lookup** (6x): skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **dotnet-patterns** (4x): skills_library, skills_library, skills_library, skills_library
+- **ecc-guide** (2x): skills_library, skills_library
+- **ecc-tools-cost-audit** (4x): skills_library, skills_library, skills_library, skills_library
+- **email-ops** (4x): skills_library, skills_library, skills_library, skills_library
+- **energy-procurement** (4x): skills_library, skills_library, skills_library, skills_library
+- **enterprise-agent-ops** (4x): skills_library, skills_library, skills_library, skills_library
+- **fal-ai-media** (5x): skills_library, skills_library, skills_library, skills_library, skills_library
+- **frontend-slides** (6x): skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **investor-materials** (6x): skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **investor-outreach** (6x): skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **mcp-server-patterns** (6x): skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **mle-workflow** (3x): skills_library, skills_library, skills_library
+- **nextjs-turbopack** (7x): skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **product-capability** (5x): skills_library, skills_library, skills_library, skills_library, skills_library
+- **security-review** (10x): skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **strategic-compact** (8x): skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **tdd-workflow** (10x): skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **verification-loop** (8x): skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **x-api** (5x): skills_library, skills_library, skills_library, skills_library, skills_library
+- **golang-patterns** (9x): skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **golang-testing** (9x): skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **search-first** (5x): skills_library, skills_library, skills_library, skills_library, skills_library
+- **iterative-retrieval** (7x): skills_library, skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **java-coding-standards** (5x): skills_library, skills_library, skills_library, skills_library, skills_library
+- **jpa-patterns** (6x): skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **nutrient-document-processing** (5x): skills_library, skills_library, skills_library, skills_library, skills_library
+- **springboot-security** (6x): skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **springboot-tdd** (6x): skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **springboot-verification** (6x): skills_library, skills_library, skills_library, skills_library, skills_library, skills_library
+- **kotlin-testing** (5x): skills_library, skills_library, skills_library, skills_library, skills_library
+- **laravel-security** (5x): skills_library, skills_library, skills_library, skills_library, skills_library
+- **laravel-tdd** (5x): skills_library, skills_library, skills_library, skills_library, skills_library
+- **laravel-verification** (5x): skills_library, skills_library, skills_library, skills_library, skills_library
+- **quarkus-patterns** (3x): skills_library, skills_library, skills_library
+- **quarkus-security** (3x): skills_library, skills_library, skills_library
+- **quarkus-tdd** (3x): skills_library, skills_library, skills_library
+- **quarkus-verification** (3x): skills_library, skills_library, skills_library
+- **rust-patterns** (5x): skills_library, skills_library, skills_library, skills_library, skills_library
+- **rust-testing** (5x): skills_library, skills_library, skills_library, skills_library, skills_library
+- **evm-token-decimals** (4x): skills_library, skills_library, skills_library, skills_library
+- **finance-billing-ops** (4x): skills_library, skills_library, skills_library, skills_library
+- **flutter-dart-code-review** (4x): skills_library, skills_library, skills_library, skills_library
+- **foundation-models-on-device** (4x): skills_library, skills_library, skills_library, skills_library
+- **gan-style-harness** (4x): skills_library, skills_library, skills_library, skills_library
+- **gateguard** (4x): skills_library, skills_library, skills_library, skills_library
+- **github-ops** (4x): skills_library, skills_library, skills_library, skills_library
+- **google-workspace-ops** (4x): skills_library, skills_library, skills_library, skills_library
+- **healthcare-cdss-patterns** (4x): skills_library, skills_library, skills_library, skills_library
+- **healthcare-emr-patterns** (4x): skills_library, skills_library, skills_library, skills_library
+- **healthcare-eval-harness** (4x): skills_library, skills_library, skills_library, skills_library
+- **healthcare-phi-compliance** (4x): skills_library, skills_library, skills_library, skills_library
+- **hermes-imports** (4x): skills_library, skills_library, skills_library, skills_library
+- **hexagonal-architecture** (4x): skills_library, skills_library, skills_library, skills_library
+- **hipaa-compliance** (4x): skills_library, skills_library, skills_library, skills_library
+- **hookify-rules** (4x): skills_library, skills_library, skills_library, skills_library
+- **inventory-demand-planning** (4x): skills_library, skills_library, skills_library, skills_library
+- **jira-integration** (4x): skills_library, skills_library, skills_library, skills_library
+- **kotlin-coroutines-flows** (4x): skills_library, skills_library, skills_library, skills_library
+- **kotlin-exposed-patterns** (4x): skills_library, skills_library, skills_library, skills_library
+- **kotlin-ktor-patterns** (4x): skills_library, skills_library, skills_library, skills_library
+- **laravel-plugin-discovery** (4x): skills_library, skills_library, skills_library, skills_library
+- **liquid-glass-design** (4x): skills_library, skills_library, skills_library, skills_library
+- **llm-trading-agent-security** (4x): skills_library, skills_library, skills_library, skills_library
+- **logistics-exception-management** (4x): skills_library, skills_library, skills_library, skills_library
+- **manim-video** (4x): skills_library, skills_library, skills_library, skills_library
+- **messages-ops** (4x): skills_library, skills_library, skills_library, skills_library
+- **nanoclaw-repl** (4x): skills_library, skills_library, skills_library, skills_library
+- **nestjs-patterns** (4x): skills_library, skills_library, skills_library, skills_library
+- **nodejs-keccak256** (4x): skills_library, skills_library, skills_library, skills_library
+- **opensource-pipeline** (4x): skills_library, skills_library, skills_library, skills_library
+- **perl-patterns** (4x): skills_library, skills_library, skills_library, skills_library
+- **perl-security** (4x): skills_library, skills_library, skills_library, skills_library
+- **perl-testing** (4x): skills_library, skills_library, skills_library, skills_library
+- **plankton-code-quality** (4x): skills_library, skills_library, skills_library, skills_library
+- **product-lens** (4x): skills_library, skills_library, skills_library, skills_library
+- **production-scheduling** (4x): skills_library, skills_library, skills_library, skills_library
+- **project-flow-ops** (4x): skills_library, skills_library, skills_library, skills_library
+- **prompt-optimizer** (4x): skills_library, skills_library, skills_library, skills_library
+- **pytorch-patterns** (4x): skills_library, skills_library, skills_library, skills_library
+- **quality-nonconformance** (4x): skills_library, skills_library, skills_library, skills_library
+- **ralphinho-rfc-pipeline** (4x): skills_library, skills_library, skills_library, skills_library
+- **regex-vs-llm-structured-text** (4x): skills_library, skills_library, skills_library, skills_library
+- **repo-scan** (4x): skills_library, skills_library, skills_library, skills_library
+- **returns-reverse-logistics** (4x): skills_library, skills_library, skills_library, skills_library
+- **rules-distill** (4x): skills_library, skills_library, skills_library, skills_library
+- **safety-guard** (4x): skills_library, skills_library, skills_library, skills_library
+- **santa-method** (4x): skills_library, skills_library, skills_library, skills_library
+- **security-bounty-hunter** (4x): skills_library, skills_library, skills_library, skills_library
+- **skill-comply** (4x): skills_library, skills_library, skills_library, skills_library
+- **skill-stocktake** (3x): skills_library, skills_library, skills_library
+- **social-graph-ranker** (4x): skills_library, skills_library, skills_library, skills_library
+- **swift-actor-persistence** (4x): skills_library, skills_library, skills_library, skills_library
+- **swift-concurrency-6-2** (4x): skills_library, skills_library, skills_library, skills_library

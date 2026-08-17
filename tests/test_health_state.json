@@ -1,0 +1,12 @@
+{
+  "opencode-go": {
+    "status": "DEGRADED",
+    "set_at": 1787009349.2591069,
+    "expires_at": 1787009469.2591069
+  },
+  "test-provider-xyz": {
+    "status": "AVAILABLE",
+    "set_at": 1787009349.2968068,
+    "expires_at": 1787009350.2968068
+  }
+}

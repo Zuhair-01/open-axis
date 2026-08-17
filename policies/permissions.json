@@ -1,0 +1,29 @@
+{
+  "default_mode": "high_autonomy",
+  "allow": [
+    "read project files", "search/grep/glob", "edit files", "create files",
+    "run tests", "run builds", "install packages via package manager",
+    "normal dependency downloads via official registries", "run local dev servers",
+    "git status", "git diff", "git log", "git add (specific files)",
+    "git commit (new commit, not amend of pushed commit)", "ordinary project tooling"
+  ],
+  "ask": [
+    "git push", "git push --force-with-lease", "installing global CLI tools",
+    "modifying CI/CD pipeline config", "modifying shared/production infra config",
+    "editing files outside the current project directory",
+    "running scripts downloaded from the internet"
+  ],
+  "deny": [
+    "uninstalling software without explicit approval",
+    "destructive deletion outside trusted project areas",
+    "git push --force to main/master",
+    "git reset --hard without explicit approval",
+    "git clean -f without explicit approval",
+    "credential/secret rotation without explicit approval",
+    "disabling security software/firewall",
+    "mass deletion", "disk-level operations", "irreversible system operations",
+    "printing .env or credential file contents",
+    "auto-uninstall via opencode uninstall"
+  ],
+  "note": "This is the control-plane's own advisory policy layer, consumed by integrations/opencode_sync.py when authoring OpenCode's NATIVE permission config (opencode.jsonc permission block). It does not itself intercept tool calls - OpenCode's and Claude Code's own permission engines do that enforcement natively."
+}

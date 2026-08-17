@@ -1,0 +1,980 @@
+{
+  "psychologist": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\academic-psychologist.md",
+    "source_hash": "193b7dba6d04346d",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\psychologist.md",
+    "capability_tier": "B"
+  },
+  "statistician": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\academic-statistician.md",
+    "source_hash": "4b023595c59becec",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\statistician.md",
+    "capability_tier": "B"
+  },
+  "agents-orchestrator": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\agents-orchestrator.md",
+    "source_hash": "3f900ee286eba5a8",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\agents-orchestrator.md",
+    "capability_tier": "B"
+  },
+  "business-strategist": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\business-strategist.md",
+    "source_hash": "9314906805d8dee8",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\business-strategist.md",
+    "capability_tier": "B"
+  },
+  "customer-service": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\customer-service.md",
+    "source_hash": "71d5b8ccd6fb6c58",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\customer-service.md",
+    "capability_tier": "B"
+  },
+  "brand-guardian": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\design-brand-guardian.md",
+    "source_hash": "d1d5c78af85d4d35",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\brand-guardian.md",
+    "capability_tier": "B"
+  },
+  "image-prompt-engineer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\design-image-prompt-engineer.md",
+    "source_hash": "63a564d01dc5812c",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\image-prompt-engineer.md",
+    "capability_tier": "B"
+  },
+  "ui-designer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\design-ui-designer.md",
+    "source_hash": "3130768958d3b3d3",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\ui-designer.md",
+    "capability_tier": "B"
+  },
+  "ux-architect": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\design-ux-architect.md",
+    "source_hash": "151f7386682b77a6",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\ux-architect.md",
+    "capability_tier": "A"
+  },
+  "ux-researcher": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\design-ux-researcher.md",
+    "source_hash": "25f59c4333df2d0f",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\ux-researcher.md",
+    "capability_tier": "B"
+  },
+  "visual-storyteller": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\design-visual-storyteller.md",
+    "source_hash": "f4950c9d65b5d105",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\visual-storyteller.md",
+    "capability_tier": "B"
+  },
+  "ai-engineer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-ai-engineer.md",
+    "source_hash": "f25a69aad25acd35",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\ai-engineer.md",
+    "capability_tier": "B"
+  },
+  "api-platform-engineer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-api-platform-engineer.md",
+    "source_hash": "278798c42d7a7cf4",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\api-platform-engineer.md",
+    "capability_tier": "B"
+  },
+  "backend-architect": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-backend-architect.md",
+    "source_hash": "18f237d054fa91f7",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\backend-architect.md",
+    "capability_tier": "A"
+  },
+  "cms-developer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-cms-developer.md",
+    "source_hash": "e072ac6e3d485483",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\cms-developer.md",
+    "capability_tier": "A"
+  },
+  "code-reviewer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-code-reviewer.md",
+    "source_hash": "7509fcc3ea1dda46",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\code-reviewer.md",
+    "capability_tier": "A"
+  },
+  "codebase-onboarding-engineer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-codebase-onboarding-engineer.md",
+    "source_hash": "07aa548b45887c3a",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\codebase-onboarding-engineer.md",
+    "capability_tier": "B"
+  },
+  "data-engineer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-data-engineer.md",
+    "source_hash": "d46e5ebdb81f5f3e",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\data-engineer.md",
+    "capability_tier": "A"
+  },
+  "database-optimizer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-database-optimizer.md",
+    "source_hash": "a58860b44590ed64",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\database-optimizer.md",
+    "capability_tier": "B"
+  },
+  "desktop-app-engineer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-desktop-app-engineer.md",
+    "source_hash": "01b103bae349f127",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\desktop-app-engineer.md",
+    "capability_tier": "B"
+  },
+  "devops-automator": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-devops-automator.md",
+    "source_hash": "5d3c3d12c605a8c0",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\devops-automator.md",
+    "capability_tier": "B"
+  },
+  "embedded-firmware-engineer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-embedded-firmware-engineer.md",
+    "source_hash": "8453982bc1ae4b5c",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\embedded-firmware-engineer.md",
+    "capability_tier": "B"
+  },
+  "finops-engineer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-finops-engineer.md",
+    "source_hash": "54134b5d3e3bf59d",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\finops-engineer.md",
+    "capability_tier": "B"
+  },
+  "frontend-developer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-frontend-developer.md",
+    "source_hash": "35961da50f408e00",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\frontend-developer.md",
+    "capability_tier": "B"
+  },
+  "git-workflow-master": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-git-workflow-master.md",
+    "source_hash": "b2ab151fa5dc3103",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\git-workflow-master.md",
+    "capability_tier": "B"
+  },
+  "internationalization-engineer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-i18n-engineer.md",
+    "source_hash": "913c72b65eca4af1",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\internationalization-engineer.md",
+    "capability_tier": "C"
+  },
+  "identity-access-engineer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-identity-access-engineer.md",
+    "source_hash": "f37ea9df4e87d468",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\identity-access-engineer.md",
+    "capability_tier": "A"
+  },
+  "incident-response-commander": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-incident-response-commander.md",
+    "source_hash": "1df5c8f558f99a8d",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\incident-response-commander.md",
+    "capability_tier": "B"
+  },
+  "minimal-change-engineer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-minimal-change-engineer.md",
+    "source_hash": "9999cc74e7b3936a",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\minimal-change-engineer.md",
+    "capability_tier": "B"
+  },
+  "mobile-app-builder": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-mobile-app-builder.md",
+    "source_hash": "1a3e043f806b0b7c",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\mobile-app-builder.md",
+    "capability_tier": "B"
+  },
+  "multi-agent-systems-architect": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-multi-agent-systems-architect.md",
+    "source_hash": "d93dd20fef67bf85",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\multi-agent-systems-architect.md",
+    "capability_tier": "A"
+  },
+  "network-engineer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-network-engineer.md",
+    "source_hash": "d4c65a148af24cec",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\network-engineer.md",
+    "capability_tier": "B"
+  },
+  "payments-billing-engineer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-payments-billing-engineer.md",
+    "source_hash": "b07c4e97ee1c23ae",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\payments-billing-engineer.md",
+    "capability_tier": "B"
+  },
+  "prompt-engineer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-prompt-engineer.md",
+    "source_hash": "625b066e01fca232",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\prompt-engineer.md",
+    "capability_tier": "C"
+  },
+  "rapid-prototyper": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-rapid-prototyper.md",
+    "source_hash": "327598e2cee41b78",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\rapid-prototyper.md",
+    "capability_tier": "B"
+  },
+  "search-relevance-engineer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-search-relevance-engineer.md",
+    "source_hash": "5562f37cbb561dce",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\search-relevance-engineer.md",
+    "capability_tier": "B"
+  },
+  "security-engineer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-security-engineer.md",
+    "source_hash": "d6ce02769f3dbe73",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\security-engineer.md",
+    "capability_tier": "A"
+  },
+  "senior-developer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-senior-developer.md",
+    "source_hash": "63b8da6c12b95f54",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\senior-developer.md",
+    "capability_tier": "B"
+  },
+  "software-architect": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-software-architect.md",
+    "source_hash": "b85121691776147b",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\software-architect.md",
+    "capability_tier": "A"
+  },
+  "solidity-smart-contract-engineer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-solidity-smart-contract-engineer.md",
+    "source_hash": "9e6f96fb29cc71fa",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\solidity-smart-contract-engineer.md",
+    "capability_tier": "A"
+  },
+  "sre-site-reliability-engineer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-sre.md",
+    "source_hash": "85b305e495506913",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\sre-site-reliability-engineer.md",
+    "capability_tier": "B"
+  },
+  "technical-writer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-technical-writer.md",
+    "source_hash": "70c8a29cddf7de48",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\technical-writer.md",
+    "capability_tier": "C"
+  },
+  "video-streaming-engineer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-video-streaming-engineer.md",
+    "source_hash": "a07dca52d7882ac5",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\video-streaming-engineer.md",
+    "capability_tier": "B"
+  },
+  "voice-ai-integration-engineer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-voice-ai-integration-engineer.md",
+    "source_hash": "de80469db772d96f",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\voice-ai-integration-engineer.md",
+    "capability_tier": "B"
+  },
+  "webassembly-engineer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\engineering-webassembly-engineer.md",
+    "source_hash": "013afbdab6688dfd",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\webassembly-engineer.md",
+    "capability_tier": "B"
+  },
+  "bookkeeper-controller": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\finance-bookkeeper-controller.md",
+    "source_hash": "5510a24274d8f789",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\bookkeeper-controller.md",
+    "capability_tier": "B"
+  },
+  "financial-analyst": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\finance-financial-analyst.md",
+    "source_hash": "3547907cd52e6108",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\financial-analyst.md",
+    "capability_tier": "B"
+  },
+  "fp-a-analyst": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\finance-fpa-analyst.md",
+    "source_hash": "5fa9137c80e0b91f",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\fp-a-analyst.md",
+    "capability_tier": "B"
+  },
+  "investment-researcher": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\finance-investment-researcher.md",
+    "source_hash": "4851318dcd82fdfd",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\investment-researcher.md",
+    "capability_tier": "B"
+  },
+  "tax-strategist": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\finance-tax-strategist.md",
+    "source_hash": "37ea1a246e1290f4",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\tax-strategist.md",
+    "capability_tier": "B"
+  },
+  "game-designer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\game-designer.md",
+    "source_hash": "203c4d7f0358a628",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\game-designer.md",
+    "capability_tier": "A"
+  },
+  "gis-analyst": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gis-analyst.md",
+    "source_hash": "db86d14315eb0ee9",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gis-analyst.md",
+    "capability_tier": "B"
+  },
+  "gsd-advisor-researcher": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-advisor-researcher.md",
+    "source_hash": "1ec999a9c85ff87e",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-advisor-researcher.md",
+    "capability_tier": "B"
+  },
+  "gsd-ai-researcher": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-ai-researcher.md",
+    "source_hash": "783db224008e52d8",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-ai-researcher.md",
+    "capability_tier": "C"
+  },
+  "gsd-assumptions-analyzer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-assumptions-analyzer.md",
+    "source_hash": "fc71855620ada4e2",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-assumptions-analyzer.md",
+    "capability_tier": "B"
+  },
+  "gsd-code-fixer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-code-fixer.md",
+    "source_hash": "6db681e16e727812",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-code-fixer.md",
+    "capability_tier": "B"
+  },
+  "gsd-code-reviewer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-code-reviewer.md",
+    "source_hash": "807081bcbbe52e3f",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-code-reviewer.md",
+    "capability_tier": "A"
+  },
+  "gsd-codebase-mapper": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-codebase-mapper.md",
+    "source_hash": "3d49375c74cb4a96",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-codebase-mapper.md",
+    "capability_tier": "C"
+  },
+  "gsd-debug-session-manager": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-debug-session-manager.md",
+    "source_hash": "50bf80979fd76567",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-debug-session-manager.md",
+    "capability_tier": "B"
+  },
+  "gsd-debugger": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-debugger.md",
+    "source_hash": "e48da73286d692ea",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-debugger.md",
+    "capability_tier": "B"
+  },
+  "gsd-doc-classifier": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-doc-classifier.md",
+    "source_hash": "b624f1608f56d830",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-doc-classifier.md",
+    "capability_tier": "C"
+  },
+  "gsd-doc-synthesizer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-doc-synthesizer.md",
+    "source_hash": "397e4b3a35c5f4df",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-doc-synthesizer.md",
+    "capability_tier": "C"
+  },
+  "gsd-doc-verifier": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-doc-verifier.md",
+    "source_hash": "7ed4d9611f678a95",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-doc-verifier.md",
+    "capability_tier": "C"
+  },
+  "gsd-doc-writer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-doc-writer.md",
+    "source_hash": "a33ffd493fb12382",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-doc-writer.md",
+    "capability_tier": "C"
+  },
+  "gsd-domain-researcher": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-domain-researcher.md",
+    "source_hash": "292fef9d15834e13",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-domain-researcher.md",
+    "capability_tier": "B"
+  },
+  "gsd-eval-auditor": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-eval-auditor.md",
+    "source_hash": "185616eb38278f33",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-eval-auditor.md",
+    "capability_tier": "B"
+  },
+  "gsd-eval-planner": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-eval-planner.md",
+    "source_hash": "1c5b3ff7e3939514",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-eval-planner.md",
+    "capability_tier": "B"
+  },
+  "gsd-executor": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-executor.md",
+    "source_hash": "08d3b33ea9e825c6",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-executor.md",
+    "capability_tier": "B"
+  },
+  "gsd-framework-selector": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-framework-selector.md",
+    "source_hash": "b3230cbafd9d5399",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-framework-selector.md",
+    "capability_tier": "B"
+  },
+  "gsd-integration-checker": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-integration-checker.md",
+    "source_hash": "69a948bb2a6ff320",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-integration-checker.md",
+    "capability_tier": "B"
+  },
+  "gsd-intel-updater": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-intel-updater.md",
+    "source_hash": "a42ff12b4c74d5fa",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-intel-updater.md",
+    "capability_tier": "B"
+  },
+  "gsd-nyquist-auditor": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-nyquist-auditor.md",
+    "source_hash": "d00b334cdfc369d0",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-nyquist-auditor.md",
+    "capability_tier": "C"
+  },
+  "gsd-pattern-mapper": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-pattern-mapper.md",
+    "source_hash": "d82b39fca5883ede",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-pattern-mapper.md",
+    "capability_tier": "B"
+  },
+  "gsd-phase-researcher": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-phase-researcher.md",
+    "source_hash": "580f514e145d1ffc",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-phase-researcher.md",
+    "capability_tier": "B"
+  },
+  "gsd-plan-checker": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-plan-checker.md",
+    "source_hash": "e92c2937abab2460",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-plan-checker.md",
+    "capability_tier": "B"
+  },
+  "gsd-planner": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-planner.md",
+    "source_hash": "0a91120c53fe8974",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-planner.md",
+    "capability_tier": "B"
+  },
+  "gsd-project-researcher": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-project-researcher.md",
+    "source_hash": "e6a2b86b87dba12b",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-project-researcher.md",
+    "capability_tier": "B"
+  },
+  "gsd-research-synthesizer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-research-synthesizer.md",
+    "source_hash": "4f6950b3d41a9e8b",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-research-synthesizer.md",
+    "capability_tier": "B"
+  },
+  "gsd-roadmapper": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-roadmapper.md",
+    "source_hash": "3a01e51d099e3267",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-roadmapper.md",
+    "capability_tier": "B"
+  },
+  "gsd-security-auditor": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-security-auditor.md",
+    "source_hash": "742972c981b9705f",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-security-auditor.md",
+    "capability_tier": "A"
+  },
+  "gsd-ui-auditor": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-ui-auditor.md",
+    "source_hash": "3b324ba9e2de6f01",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-ui-auditor.md",
+    "capability_tier": "B"
+  },
+  "gsd-ui-checker": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-ui-checker.md",
+    "source_hash": "3661204855d02d66",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-ui-checker.md",
+    "capability_tier": "B"
+  },
+  "gsd-ui-researcher": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-ui-researcher.md",
+    "source_hash": "371673e035c35f31",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-ui-researcher.md",
+    "capability_tier": "B"
+  },
+  "gsd-user-profiler": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-user-profiler.md",
+    "source_hash": "f688cd60c33df6f6",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-user-profiler.md",
+    "capability_tier": "B"
+  },
+  "gsd-verifier": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\gsd-verifier.md",
+    "source_hash": "ca5f28493c7fb24c",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\gsd-verifier.md",
+    "capability_tier": "B"
+  },
+  "hr-onboarding": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\hr-onboarding.md",
+    "source_hash": "28a52c26f27ab24d",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\hr-onboarding.md",
+    "capability_tier": "C"
+  },
+  "language-translator": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\language-translator.md",
+    "source_hash": "afd1e4b5fb1bb8fa",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\language-translator.md",
+    "capability_tier": "B"
+  },
+  "legal-document-review": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\legal-document-review.md",
+    "source_hash": "02bf51dbc9d8ffc9",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\legal-document-review.md",
+    "capability_tier": "C"
+  },
+  "app-store-optimizer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\marketing-app-store-optimizer.md",
+    "source_hash": "1987be72f8fd43ca",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\app-store-optimizer.md",
+    "capability_tier": "B"
+  },
+  "content-creator": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\marketing-content-creator.md",
+    "source_hash": "26ddce44f057068a",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\content-creator.md",
+    "capability_tier": "B"
+  },
+  "email-marketing-strategist": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\marketing-email-strategist.md",
+    "source_hash": "605c98066a4a1b55",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\email-marketing-strategist.md",
+    "capability_tier": "A"
+  },
+  "growth-hacker": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\marketing-growth-hacker.md",
+    "source_hash": "6938b4fccaf4447e",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\growth-hacker.md",
+    "capability_tier": "B"
+  },
+  "instagram-curator": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\marketing-instagram-curator.md",
+    "source_hash": "bab95910975a9540",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\instagram-curator.md",
+    "capability_tier": "D"
+  },
+  "linkedin-content-creator": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\marketing-linkedin-content-creator.md",
+    "source_hash": "344896bff33acf0b",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\linkedin-content-creator.md",
+    "capability_tier": "B"
+  },
+  "multi-platform-publisher": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\marketing-multi-platform-publisher.md",
+    "source_hash": "adfc6c481c0c1e1c",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\multi-platform-publisher.md",
+    "capability_tier": "B"
+  },
+  "pr-communications-manager": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\marketing-pr-communications-manager.md",
+    "source_hash": "e255a9ebf00a0db0",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\pr-communications-manager.md",
+    "capability_tier": "B"
+  },
+  "seo-specialist": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\marketing-seo-specialist.md",
+    "source_hash": "b2aa467176bb3489",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\seo-specialist.md",
+    "capability_tier": "B"
+  },
+  "social-media-strategist": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\marketing-social-media-strategist.md",
+    "source_hash": "7c698a9280872666",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\social-media-strategist.md",
+    "capability_tier": "B"
+  },
+  "tiktok-strategist": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\marketing-tiktok-strategist.md",
+    "source_hash": "980ca09138f63ec2",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\tiktok-strategist.md",
+    "capability_tier": "B"
+  },
+  "operations-manager": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\operations-manager.md",
+    "source_hash": "3c133a31ae154292",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\operations-manager.md",
+    "capability_tier": "B"
+  },
+  "paid-media-auditor": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\paid-media-auditor.md",
+    "source_hash": "ce0346ba6a1b1652",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\paid-media-auditor.md",
+    "capability_tier": "B"
+  },
+  "paid-social-strategist": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\paid-media-paid-social-strategist.md",
+    "source_hash": "c8004c7f640dfef9",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\paid-social-strategist.md",
+    "capability_tier": "B"
+  },
+  "ppc-campaign-strategist": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\paid-media-ppc-strategist.md",
+    "source_hash": "3e172aa58ad7f9ea",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\ppc-campaign-strategist.md",
+    "capability_tier": "A"
+  },
+  "tracking-measurement-specialist": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\paid-media-tracking-specialist.md",
+    "source_hash": "8caa9bbc8f5a8aae",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\tracking-measurement-specialist.md",
+    "capability_tier": "A"
+  },
+  "feedback-synthesizer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\product-feedback-synthesizer.md",
+    "source_hash": "9f7bc1474bf8bf95",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\feedback-synthesizer.md",
+    "capability_tier": "B"
+  },
+  "product-manager": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\product-manager.md",
+    "source_hash": "4a3fe4661e72e517",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\product-manager.md",
+    "capability_tier": "B"
+  },
+  "sprint-prioritizer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\product-sprint-prioritizer.md",
+    "source_hash": "da5233770ca85a39",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\sprint-prioritizer.md",
+    "capability_tier": "B"
+  },
+  "trend-researcher": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\product-trend-researcher.md",
+    "source_hash": "69c8e54a9413ba41",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\trend-researcher.md",
+    "capability_tier": "B"
+  },
+  "experiment-tracker": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\project-management-experiment-tracker.md",
+    "source_hash": "8f1410bfa054c8ac",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\experiment-tracker.md",
+    "capability_tier": "C"
+  },
+  "project-shepherd": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\project-management-project-shepherd.md",
+    "source_hash": "0feb647366d78b61",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\project-shepherd.md",
+    "capability_tier": "B"
+  },
+  "studio-operations": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\project-management-studio-operations.md",
+    "source_hash": "8a2e5098d94688d1",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\studio-operations.md",
+    "capability_tier": "B"
+  },
+  "senior-project-manager": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\project-manager-senior.md",
+    "source_hash": "70fb27cab174c973",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\senior-project-manager.md",
+    "capability_tier": "B"
+  },
+  "recruitment-specialist": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\recruitment-specialist.md",
+    "source_hash": "fa1349988c278d0e",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\recruitment-specialist.md",
+    "capability_tier": "B"
+  },
+  "account-strategist": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\sales-account-strategist.md",
+    "source_hash": "dd9b2c37c4182728",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\account-strategist.md",
+    "capability_tier": "B"
+  },
+  "deal-strategist": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\sales-deal-strategist.md",
+    "source_hash": "fdd92f2ced04ad84",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\deal-strategist.md",
+    "capability_tier": "B"
+  },
+  "sales-engineer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\sales-engineer.md",
+    "source_hash": "355014b3ecf52aaa",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\sales-engineer.md",
+    "capability_tier": "B"
+  },
+  "sales-outreach": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\sales-outreach.md",
+    "source_hash": "84d4ca90d4bed464",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\sales-outreach.md",
+    "capability_tier": "B"
+  },
+  "pipeline-analyst": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\sales-pipeline-analyst.md",
+    "source_hash": "d105ed717423298d",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\pipeline-analyst.md",
+    "capability_tier": "B"
+  },
+  "proposal-strategist": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\sales-proposal-strategist.md",
+    "source_hash": "84c42e0ae7e11e6b",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\proposal-strategist.md",
+    "capability_tier": "A"
+  },
+  "application-security-engineer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\security-appsec-engineer.md",
+    "source_hash": "f3ee22350c9e0e72",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\application-security-engineer.md",
+    "capability_tier": "A"
+  },
+  "security-architect": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\security-architect.md",
+    "source_hash": "b1a68e9614f7adb4",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\security-architect.md",
+    "capability_tier": "A"
+  },
+  "cloud-security-architect": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\security-cloud-security-architect.md",
+    "source_hash": "d541b4041d47c512",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\cloud-security-architect.md",
+    "capability_tier": "A"
+  },
+  "compliance-auditor": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\security-compliance-auditor.md",
+    "source_hash": "ebb550ceef8011be",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\compliance-auditor.md",
+    "capability_tier": "B"
+  },
+  "incident-responder": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\security-incident-responder.md",
+    "source_hash": "a648cf5a0b40d872",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\incident-responder.md",
+    "capability_tier": "B"
+  },
+  "penetration-tester": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\security-penetration-tester.md",
+    "source_hash": "f52c2524309fb048",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\penetration-tester.md",
+    "capability_tier": "A"
+  },
+  "threat-detection-engineer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\security-threat-detection-engineer.md",
+    "source_hash": "83bfaabe485d5196",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\threat-detection-engineer.md",
+    "capability_tier": "A"
+  },
+  "threat-intelligence-analyst": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\security-threat-intelligence-analyst.md",
+    "source_hash": "777b26397ae7aeb2",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\threat-intelligence-analyst.md",
+    "capability_tier": "B"
+  },
+  "chief-of-staff": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\specialized-chief-of-staff.md",
+    "source_hash": "c0d053f19f32d369",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\chief-of-staff.md",
+    "capability_tier": "B"
+  },
+  "cultural-intelligence-strategist": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\specialized-cultural-intelligence-strategist.md",
+    "source_hash": "91f1d2ef19bcf05f",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\cultural-intelligence-strategist.md",
+    "capability_tier": "B"
+  },
+  "developer-advocate": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\specialized-developer-advocate.md",
+    "source_hash": "92617477989c99f5",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\developer-advocate.md",
+    "capability_tier": "B"
+  },
+  "document-generator": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\specialized-document-generator.md",
+    "source_hash": "cd2ca961e0f7baa1",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\document-generator.md",
+    "capability_tier": "C"
+  },
+  "mcp-builder": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\specialized-mcp-builder.md",
+    "source_hash": "3880031674ae2458",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\mcp-builder.md",
+    "capability_tier": "C"
+  },
+  "model-qa-specialist": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\specialized-model-qa.md",
+    "source_hash": "835a26b93003cfb8",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\model-qa-specialist.md",
+    "capability_tier": "C"
+  },
+  "pricing-analyst": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\specialized-pricing-analyst.md",
+    "source_hash": "fb8a63681615666b",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\pricing-analyst.md",
+    "capability_tier": "B"
+  },
+  "workflow-architect": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\specialized-workflow-architect.md",
+    "source_hash": "74d46f03dcdd7691",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\workflow-architect.md",
+    "capability_tier": "B"
+  },
+  "supply-chain-strategist": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\supply-chain-strategist.md",
+    "source_hash": "4e3c93bcfefd72b9",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\supply-chain-strategist.md",
+    "capability_tier": "B"
+  },
+  "analytics-reporter": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\support-analytics-reporter.md",
+    "source_hash": "8d4a4d0835f9ecb5",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\analytics-reporter.md",
+    "capability_tier": "B"
+  },
+  "executive-summary-generator": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\support-executive-summary-generator.md",
+    "source_hash": "298891fcf297de5d",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\executive-summary-generator.md",
+    "capability_tier": "B"
+  },
+  "finance-tracker": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\support-finance-tracker.md",
+    "source_hash": "73b83d0b0ec4ce53",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\finance-tracker.md",
+    "capability_tier": "B"
+  },
+  "infrastructure-maintainer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\support-infrastructure-maintainer.md",
+    "source_hash": "64d705a9e58f7386",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\infrastructure-maintainer.md",
+    "capability_tier": "A"
+  },
+  "legal-compliance-checker": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\support-legal-compliance-checker.md",
+    "source_hash": "0544f2219d52742f",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\legal-compliance-checker.md",
+    "capability_tier": "B"
+  },
+  "support-responder": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\support-support-responder.md",
+    "source_hash": "4dcd962743e940d1",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\support-responder.md",
+    "capability_tier": "B"
+  },
+  "accessibility-auditor": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\testing-accessibility-auditor.md",
+    "source_hash": "982a14c0d0a9b308",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\accessibility-auditor.md",
+    "capability_tier": "C"
+  },
+  "api-tester": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\testing-api-tester.md",
+    "source_hash": "c89d7ae592523f47",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\api-tester.md",
+    "capability_tier": "C"
+  },
+  "evidence-collector": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\testing-evidence-collector.md",
+    "source_hash": "d7e95b64033230aa",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\evidence-collector.md",
+    "capability_tier": "B"
+  },
+  "performance-benchmarker": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\testing-performance-benchmarker.md",
+    "source_hash": "24dbd3a55cf6ca36",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\performance-benchmarker.md",
+    "capability_tier": "C"
+  },
+  "reality-checker": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\testing-reality-checker.md",
+    "source_hash": "748334839b21f5b2",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\reality-checker.md",
+    "capability_tier": "B"
+  },
+  "test-automation-engineer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\testing-test-automation-engineer.md",
+    "source_hash": "479ba12efa5c19e8",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\test-automation-engineer.md",
+    "capability_tier": "B"
+  },
+  "test-results-analyzer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\testing-test-results-analyzer.md",
+    "source_hash": "f080e1e8a5ddadc9",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\test-results-analyzer.md",
+    "capability_tier": "C"
+  },
+  "tool-evaluator": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\testing-tool-evaluator.md",
+    "source_hash": "98e9a2b4491ffa19",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\tool-evaluator.md",
+    "capability_tier": "C"
+  },
+  "workflow-optimizer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\testing-workflow-optimizer.md",
+    "source_hash": "021ba71e24550719",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\workflow-optimizer.md",
+    "capability_tier": "B"
+  },
+  "understand-architecture-analyzer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\understand-architecture-analyzer.md",
+    "source_hash": "81e8af6e89f4d4be",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\understand-architecture-analyzer.md",
+    "capability_tier": "B"
+  },
+  "understand-article-analyzer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\understand-article-analyzer.md",
+    "source_hash": "bfeee5d2160663d2",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\understand-article-analyzer.md",
+    "capability_tier": "B"
+  },
+  "understand-assemble-reviewer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\understand-assemble-reviewer.md",
+    "source_hash": "da79bbdfe320b104",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\understand-assemble-reviewer.md",
+    "capability_tier": "B"
+  },
+  "understand-design-analyzer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\understand-design-analyzer.md",
+    "source_hash": "e13c01a166f32b4d",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\understand-design-analyzer.md",
+    "capability_tier": "B"
+  },
+  "understand-domain-analyzer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\understand-domain-analyzer.md",
+    "source_hash": "b9c5e865e6ee6efe",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\understand-domain-analyzer.md",
+    "capability_tier": "B"
+  },
+  "understand-file-analyzer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\understand-file-analyzer.md",
+    "source_hash": "d733c7bab98ea58f",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\understand-file-analyzer.md",
+    "capability_tier": "B"
+  },
+  "understand-graph-reviewer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\understand-graph-reviewer.md",
+    "source_hash": "0e9c24c59af1254e",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\understand-graph-reviewer.md",
+    "capability_tier": "B"
+  },
+  "understand-knowledge-graph-guide": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\understand-knowledge-graph-guide.md",
+    "source_hash": "7b8353dd37b2af8d",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\understand-knowledge-graph-guide.md",
+    "capability_tier": "B"
+  },
+  "understand-project-scanner": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\understand-project-scanner.md",
+    "source_hash": "c569f880c2983ba4",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\understand-project-scanner.md",
+    "capability_tier": "B"
+  },
+  "understand-tour-builder": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\understand-tour-builder.md",
+    "source_hash": "568fe776d6c0b1af",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\understand-tour-builder.md",
+    "capability_tier": "B"
+  },
+  "xr-immersive-developer": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\xr-immersive-developer.md",
+    "source_hash": "a9aa13187bfb774f",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\xr-immersive-developer.md",
+    "capability_tier": "B"
+  },
+  "zk-steward": {
+    "source_path": "C:\\Users\\Zoher\\.claude\\agents\\zk-steward.md",
+    "source_hash": "01fdb11cc8df0ada",
+    "output_path": "C:\\Users\\Zoher\\.config\\opencode\\agents\\zk-steward.md",
+    "capability_tier": "B"
+  }
+}

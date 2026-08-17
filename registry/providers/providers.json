@@ -1,0 +1,107 @@
+{
+  "generated_from": "verified via `opencode auth list` and `opencode models`, and Claude Code ~/.claude/.credentials.json presence check (2026-08-15)",
+  "providers": [
+    {
+      "id": "opencode-zen",
+      "name": "OpenCode Zen (built-in free tier)",
+      "access_type": "OPENCODE_ACCESS",
+      "auth_required": false,
+      "auth_status": "N/A - no credential needed",
+      "verified_available_models": [
+        "opencode/big-pickle",
+        "opencode/deepseek-v4-flash-free",
+        "opencode/hy3-free",
+        "opencode/laguna-s-2.1-free",
+        "opencode/mimo-v2.5-free",
+        "opencode/nemotron-3-ultra-free",
+        "opencode/nemotron-3.5-lightning-free"
+      ],
+      "notes": "Verified live via `opencode models` on the installed v1.18.18 client. These are free-tier models bundled with OpenCode itself, no credential configured. Capability ratings NOT yet benchmarked - do not assume frontier-tier quality without testing."
+    },
+    {
+      "id": "opencode-go",
+      "name": "OpenCode Go (paid subscription tier)",
+      "access_type": "SUBSCRIPTION_ACCESS via OpenCode's own auth (real subscription, distinct from opencode-zen free tier)",
+      "auth_required": true,
+      "auth_status": "AUTHENTICATED - verified 2026-08-15 via `opencode auth list` (1 credential, 'OpenCode Go api') and `opencode models`",
+      "verified_available_models": [
+        "opencode-go/deepseek-v4-flash",
+        "opencode-go/deepseek-v4-pro",
+        "opencode-go/glm-5.1",
+        "opencode-go/glm-5.2",
+        "opencode-go/glm-5.3",
+        "opencode-go/gpt-5.6-luna",
+        "opencode-go/grok-4.5",
+        "opencode-go/hy3",
+        "opencode-go/kimi-k2.6",
+        "opencode-go/kimi-k2.7-code",
+        "opencode-go/kimi-k3",
+        "opencode-go/mimo-v2.5",
+        "opencode-go/mimo-v2.5-pro",
+        "opencode-go/minimax-m2.7",
+        "opencode-go/minimax-m3",
+        "opencode-go/qwen3.6-plus",
+        "opencode-go/qwen3.7-max",
+        "opencode-go/qwen3.7-plus",
+        "opencode-go/qwen3.8-max"
+      ],
+      "notes": "This is your third real leg of the 3-provider system, working right now. Capability tiers are still UNKNOWN/unbenchmarked - none of these are auto-routable until benchmarked or manually assigned a tier. '-max'/'-pro' variants are presumably the stronger tier within each family by naming convention, but that's an inference, not a measured fact."
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic (Claude)",
+      "access_type": "SUBSCRIPTION_ACCESS",
+      "docs_url": "https://docs.anthropic.com",
+      "auth_required": true,
+      "auth_status": "FOUND (Claude Code subscription credential present at ~/.claude/.credentials.json) - this is SUBSCRIPTION access via Claude Code, NOT confirmed to be usable as API access inside OpenCode. `opencode auth list` shows 0 credentials, so OpenCode itself is NOT currently authenticated to Anthropic.",
+      "opencode_status": "NOT CONFIGURED - run `opencode auth login` to add",
+      "known_model_ids_from_this_session": [
+        "claude-fable-5",
+        "claude-opus-5",
+        "claude-sonnet-5",
+        "claude-haiku-4-5-20251001"
+      ],
+      "notes": "Model IDs above are stated in this Claude Code session's own system context, not independently re-verified against Anthropic's public docs during this bootstrap. Treat as high-confidence but re-check docs.anthropic.com before hardcoding into production routing."
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "access_type": "API_ACCESS",
+      "docs_url": "https://platform.openai.com/docs",
+      "auth_required": true,
+      "auth_status": "AUTHENTICATED - verified 2026-08-15 via codex login status (Logged in using ChatGPT) and a real end-to-end dispatch (exit 0, real session id, task_state COMPLETED)",
+      "known_model_ids": [],
+      "notes": "Real dispatch verified 2026-08-15 via adapters/cli_dispatch.py -> codex exec --skip-git-repo-check. Known nuance: interprets the OBJECTIVE-prefixed handoff prompt more formally than Claude/OpenCode Go (responds \"Objective registered\" rather than executing immediately on trivial instructions) - not yet tuned for, noted for follow-up.",
+      "verified_available_models": [
+        "gpt-5.6-terra"
+      ]
+    },
+    {
+      "id": "google",
+      "name": "Google (Gemini)",
+      "access_type": "API_ACCESS",
+      "docs_url": "https://ai.google.dev/gemini-api/docs",
+      "auth_required": true,
+      "auth_status": "MISSING - no GOOGLE_API_KEY/GEMINI_API_KEY env var found, not in `opencode auth list`",
+      "known_model_ids": [],
+      "notes": "No models listed - do not invent model IDs."
+    },
+    {
+      "id": "ollama",
+      "name": "Ollama (local, free)",
+      "access_type": "LOCAL_MODEL_ACCESS",
+      "auth_required": false,
+      "auth_status": "N/A - local, no credential needed. Verified live 2026-08-15: real dispatch tested end-to-end.",
+      "verified_available_models": [
+        "llama3.1:8b",
+        "moondream:latest",
+        "deepseek-r1:8b",
+        "qwen2.5-coder:7b",
+        "gemma4:latest"
+      ],
+      "notes": "Zero cost, zero network latency, no rate limits - runs on this machine. Capability tiers unbenchmarked except where noted in model_registry.json. Real constraint: local hardware limits (CPU/GPU, RAM) mean quality/speed varies by machine - not assumed equivalent to cloud models of the same parameter count."
+    }
+  ],
+  "rate_limit_behavior": "UNKNOWN - not observed this session, no calls made against any paid provider during bootstrap",
+  "verification_method": "opencode auth list; opencode models; env var name grep (no values read)"
+}

@@ -1,0 +1,8 @@
+{
+  "rule": "NO SPAWN. Ever. All agent selection is INLINE-only: the selected agent's system-prompt/persona content is loaded as context for the CURRENT model call - never a new isolated subagent session.",
+  "why": "User decision (2026-08-15): no reliable token-cost solution exists for cold-started subagents on any provider - Claude Code's Agent tool, OpenCode's mode:subagent, and any future provider's equivalent all pay the same re-derive-context tax (~20x+ per feedback_no_agent_unless_asked). Rather than manage a conditional spawn/no-spawn decision tree, the simplest and safest fix is: don't spawn, period. Do the work directly in the current session using the selected agent's persona as reference, the way a normal (non-multi-agent) session would.",
+  "spawn_conditions": [],
+  "not_spawn_conditions": ["always"],
+  "note_on_prior_version": "An earlier version of this policy allowed a conditional SPAWN path for independent review/parallelism on high-stakes tasks. Superseded by explicit user instruction to not use subagents at all.",
+  "applies_to": "Claude Code Agent tool, OpenCode mode:subagent, and any future provider's equivalent - this policy is provider-agnostic by design."
+}

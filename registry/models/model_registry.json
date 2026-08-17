@@ -1,0 +1,331 @@
+{
+  "generated_from": "cross-referenced against registry/providers/providers.json - see that file for verification method",
+  "schema_note": "capability_tier is directional (Anthropic's own public product positioning: Opus > Sonnet > Haiku in capability and cost), NOT a benchmarked score. Treat ratings as advisory until this session's models are actually exercised and measured.",
+  "models": [
+    {
+      "provider": "anthropic",
+      "model_id": "claude-opus-5",
+      "display_name": "Opus 5",
+      "capability_tier": "A",
+      "access_type": "SUBSCRIPTION_ACCESS via Claude Code CLI (verified: claude --model <alias> -p works directly, confirmed 2026-08-15) - dispatched via adapters/cli_dispatch.py, NOT through OpenCode",
+      "task_types": [
+        "ARCHITECTURE",
+        "SECURITY",
+        "DEBUGGING",
+        "RESEARCH"
+      ]
+    },
+    {
+      "provider": "anthropic",
+      "model_id": "claude-sonnet-5",
+      "display_name": "Sonnet 5",
+      "capability_tier": "B",
+      "access_type": "SUBSCRIPTION_ACCESS via Claude Code CLI (verified: claude --model <alias> -p works directly, confirmed 2026-08-15) - dispatched via adapters/cli_dispatch.py, NOT through OpenCode",
+      "task_types": [
+        "IMPLEMENTATION",
+        "REFACTOR",
+        "TESTING",
+        "DOCUMENTATION"
+      ]
+    },
+    {
+      "provider": "anthropic",
+      "model_id": "claude-haiku-4-5-20251001",
+      "display_name": "Haiku 4.5",
+      "capability_tier": "C",
+      "access_type": "SUBSCRIPTION_ACCESS via Claude Code CLI (verified: claude --model <alias> -p works directly, confirmed 2026-08-15) - dispatched via adapters/cli_dispatch.py, NOT through OpenCode",
+      "task_types": [
+        "SIMPLE_EDIT",
+        "DOCUMENTATION"
+      ]
+    },
+    {
+      "provider": "anthropic",
+      "model_id": "claude-fable-5",
+      "display_name": "Fable 5",
+      "capability_tier": "UNKNOWN",
+      "access_type": "SUBSCRIPTION_ACCESS via Claude Code CLI (verified: claude --model <alias> -p works directly, confirmed 2026-08-15) - dispatched via adapters/cli_dispatch.py, NOT through OpenCode",
+      "task_types": [],
+      "notes": "Capability profile not characterized this session - do not route critical tasks to it without benchmarking."
+    },
+    {
+      "provider": "opencode-zen",
+      "model_id": "opencode/big-pickle",
+      "display_name": "big-pickle (free)",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OPENCODE_ACCESS",
+      "task_types": [],
+      "notes": "Live in OpenCode right now with zero config. Capability unbenchmarked - default to TIER D floor until measured."
+    },
+    {
+      "provider": "opencode-zen",
+      "model_id": "opencode/deepseek-v4-flash-free",
+      "display_name": "DeepSeek V4 Flash (free)",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OPENCODE_ACCESS",
+      "task_types": [],
+      "notes": "Spot-tested 2026-08-15: TIMED OUT twice (60s and 150s) on a trivial formatting task. Real reliability failure, not untested - deliberately kept excluded from routing."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/deepseek-v4-flash",
+      "display_name": "deepseek-v4-flash",
+      "capability_tier": "UNKNOWN",
+      "access_type": "SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via opencode auth list + opencode models)",
+      "task_types": [],
+      "notes": "BLOCKED at test time: OpenCode reported this model is China-hosted and requires explicit opt-in (data residency notice). Not tested. Do not route here without a deliberate compliance decision - see reports/BENCHMARK_RESULTS.md."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/deepseek-v4-pro",
+      "display_name": "deepseek-v4-pro",
+      "capability_tier": "UNKNOWN",
+      "access_type": "SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via opencode auth list + opencode models)",
+      "task_types": [],
+      "notes": "Unbenchmarked - excluded from routing until a tier is assigned. Authenticated and callable right now, just not yet rated."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/glm-5.1",
+      "display_name": "glm-5.1",
+      "capability_tier": "C",
+      "access_type": "SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via opencode auth list + opencode models)",
+      "task_types": [],
+      "notes": "Spot-tested 2026-08-15: correct, thorough (added doctest examples unprompted) on a D-tier task. Quality clearly exceeds the bar for the task given, rated C."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/glm-5.2",
+      "display_name": "glm-5.2",
+      "capability_tier": "UNKNOWN",
+      "access_type": "SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via opencode auth list + opencode models)",
+      "task_types": [],
+      "notes": "Unbenchmarked - excluded from routing until a tier is assigned. Authenticated and callable right now, just not yet rated."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/glm-5.3",
+      "display_name": "glm-5.3",
+      "capability_tier": "UNKNOWN",
+      "access_type": "SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via opencode auth list + opencode models)",
+      "task_types": [],
+      "notes": "Unbenchmarked - excluded from routing until a tier is assigned. Authenticated and callable right now, just not yet rated."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/gpt-5.6-luna",
+      "display_name": "gpt-5.6-luna",
+      "capability_tier": "UNKNOWN",
+      "access_type": "SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via opencode auth list + opencode models)",
+      "task_types": [],
+      "notes": "Unbenchmarked - excluded from routing until a tier is assigned. Authenticated and callable right now, just not yet rated."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/grok-4.5",
+      "display_name": "grok-4.5",
+      "capability_tier": "UNKNOWN",
+      "access_type": "SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via opencode auth list + opencode models)",
+      "task_types": [],
+      "notes": "Unbenchmarked - excluded from routing until a tier is assigned. Authenticated and callable right now, just not yet rated."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/hy3",
+      "display_name": "hy3",
+      "capability_tier": "UNKNOWN",
+      "access_type": "SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via opencode auth list + opencode models)",
+      "task_types": [],
+      "notes": "Unbenchmarked - excluded from routing until a tier is assigned. Authenticated and callable right now, just not yet rated."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/kimi-k2.6",
+      "display_name": "kimi-k2.6",
+      "capability_tier": "UNKNOWN",
+      "access_type": "SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via opencode auth list + opencode models)",
+      "task_types": [],
+      "notes": "Unbenchmarked - excluded from routing until a tier is assigned. Authenticated and callable right now, just not yet rated."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/kimi-k2.7-code",
+      "display_name": "kimi-k2.7-code",
+      "capability_tier": "B",
+      "access_type": "SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via opencode auth list + opencode models)",
+      "task_types": [
+        "IMPLEMENTATION",
+        "REFACTOR",
+        "TESTING",
+        "DEBUGGING"
+      ],
+      "notes": "Spot-tested 2026-08-15: correct idiomatic bug fix (replaced silent {} return with a proper custom exception) on a real debugging task. Code-specialist naming matches observed behavior."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/kimi-k3",
+      "display_name": "kimi-k3",
+      "capability_tier": "A",
+      "access_type": "SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via opencode auth list + opencode models)",
+      "task_types": [
+        "ARCHITECTURE",
+        "SECURITY",
+        "DIFFICULT_DEBUGGING"
+      ],
+      "notes": "Spot-tested 2026-08-15: matched/exceeded qwen3.8-max on the same hard race-condition/bytecode task - correct, well-structured, included working demo code and the __iadd__ nuance unprompted. Second confirmed Tier-A candidate."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/mimo-v2.5",
+      "display_name": "mimo-v2.5",
+      "capability_tier": "C",
+      "access_type": "SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via opencode auth list + opencode models)",
+      "task_types": [
+        "ROUTINE_IMPLEMENTATION",
+        "SIMPLE_EDIT"
+      ],
+      "notes": "Spot-tested 2026-08-15: correct, idiomatic simple function (reverse_words). Single-probe evidence, not exhaustive."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/mimo-v2.5-pro",
+      "display_name": "mimo-v2.5-pro",
+      "capability_tier": "C",
+      "access_type": "SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via opencode auth list + opencode models)",
+      "task_types": [
+        "ROUTINE_IMPLEMENTATION",
+        "SIMPLE_EDIT"
+      ],
+      "notes": "Spot-tested 2026-08-15: correct simple task (palindrome check). Same difficulty probe as base mimo-v2.5 - no differentiating harder-task evidence yet despite '-pro' naming, so kept at same tier honestly rather than assumed higher."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/minimax-m2.7",
+      "display_name": "minimax-m2.7",
+      "capability_tier": "UNKNOWN",
+      "access_type": "SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via opencode auth list + opencode models)",
+      "task_types": [],
+      "notes": "Unbenchmarked - excluded from routing until a tier is assigned. Authenticated and callable right now, just not yet rated."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/minimax-m3",
+      "display_name": "minimax-m3",
+      "capability_tier": "UNKNOWN",
+      "access_type": "SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via opencode auth list + opencode models)",
+      "task_types": [],
+      "notes": "Unbenchmarked - excluded from routing until a tier is assigned. Authenticated and callable right now, just not yet rated."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/qwen3.6-plus",
+      "display_name": "qwen3.6-plus",
+      "capability_tier": "UNKNOWN",
+      "access_type": "SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via opencode auth list + opencode models)",
+      "task_types": [],
+      "notes": "Unbenchmarked - excluded from routing until a tier is assigned. Authenticated and callable right now, just not yet rated."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/qwen3.7-max",
+      "display_name": "qwen3.7-max",
+      "capability_tier": "B",
+      "access_type": "SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via opencode auth list + opencode models)",
+      "task_types": [
+        "IMPLEMENTATION",
+        "REFACTOR",
+        "TESTING",
+        "DEBUGGING"
+      ],
+      "notes": "Spot-tested 2026-08-15: excellent refactor (dispatch table + dependency injection for testability, explicit error handling) on a B-tier task. Quality suggests it may deserve A, but only tested at B difficulty so rated conservatively at confirmed level."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/qwen3.7-plus",
+      "display_name": "qwen3.7-plus",
+      "capability_tier": "B",
+      "access_type": "SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via opencode auth list + opencode models)",
+      "task_types": [
+        "IMPLEMENTATION",
+        "REFACTOR",
+        "TESTING"
+      ],
+      "notes": "Spot-tested 2026-08-15: correctly handled edge cases (unsorted input, touching intervals) on merge_intervals without being told to. Single-probe evidence."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/qwen3.8-max",
+      "display_name": "qwen3.8-max",
+      "capability_tier": "A",
+      "access_type": "SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via opencode auth list + opencode models)",
+      "task_types": [
+        "ARCHITECTURE",
+        "SECURITY",
+        "DIFFICULT_DEBUGGING"
+      ],
+      "notes": "Spot-tested 2026-08-15: technically precise bytecode-level race-condition explanation, correct threading.Lock fix, plus real nuance (RLock, GIL/free-threaded 3.13, itertools.count fast path). Also independently verified its own claim via disassembly before answering. Single-probe evidence but strong signal."
+    },
+    {
+      "provider": "ollama",
+      "model_id": "qwen2.5-coder:7b",
+      "display_name": "Qwen2.5 Coder 7B (local)",
+      "capability_tier": "C",
+      "access_type": "LOCAL_MODEL_ACCESS via Ollama - free, no network, verified 2026-08-15",
+      "task_types": [
+        "ROUTINE_IMPLEMENTATION",
+        "SIMPLE_EDIT"
+      ],
+      "notes": "Spot-tested 2026-08-15: correct, idiomatic palindrome-check implementation, matches quality of equivalently-rated cloud C-tier models. Free and local - zero cost, zero rate limit."
+    },
+    {
+      "provider": "ollama",
+      "model_id": "llama3.1:8b",
+      "display_name": "llama3.1:8b",
+      "capability_tier": "UNKNOWN",
+      "access_type": "LOCAL_MODEL_ACCESS via Ollama",
+      "task_types": [],
+      "notes": "Not yet benchmarked - excluded from routing until tested."
+    },
+    {
+      "provider": "ollama",
+      "model_id": "moondream:latest",
+      "display_name": "moondream:latest",
+      "capability_tier": "UNKNOWN",
+      "access_type": "LOCAL_MODEL_ACCESS via Ollama",
+      "task_types": [],
+      "notes": "Not yet benchmarked - excluded from routing until tested."
+    },
+    {
+      "provider": "ollama",
+      "model_id": "deepseek-r1:8b",
+      "display_name": "deepseek-r1:8b",
+      "capability_tier": "UNKNOWN",
+      "access_type": "LOCAL_MODEL_ACCESS via Ollama",
+      "task_types": [],
+      "notes": "Not yet benchmarked - excluded from routing until tested."
+    },
+    {
+      "provider": "ollama",
+      "model_id": "gemma4:latest",
+      "display_name": "gemma4:latest",
+      "capability_tier": "UNKNOWN",
+      "access_type": "LOCAL_MODEL_ACCESS via Ollama",
+      "task_types": [],
+      "notes": "Not yet benchmarked - excluded from routing until tested."
+    },
+    {
+      "provider": "openai",
+      "model_id": "gpt-5.6-terra",
+      "display_name": "GPT-5.6 Terra (Codex default)",
+      "capability_tier": "B",
+      "access_type": "SUBSCRIPTION_ACCESS via Codex CLI (ChatGPT+), verified 2026-08-15",
+      "task_types": [
+        "IMPLEMENTATION",
+        "REFACTOR",
+        "TESTING",
+        "DEBUGGING"
+      ],
+      "notes": "Spot-tested 2026-08-15: correct, idiomatic merge_intervals implementation (proper touching-interval handling via start > last_end, not >=). First real Codex/GPT leg data point. Real quirk found: interprets task_state OBJECTIVE-prefixed prompts literally when objective/prompt mismatch (test artifact, not a real-usage issue since they always match in production)."
+    }
+  ]
+}

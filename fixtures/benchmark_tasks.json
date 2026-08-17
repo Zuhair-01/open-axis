@@ -1,0 +1,61 @@
+{
+  "note": "Reusable, representative task bank for benchmarking any model/provider added to the system. Re-run this same bank whenever a new model shows up (Codex, a new OpenCode Go model, etc.) so results stay comparable over time - not ad hoc one-offs. Each task targets a specific tier so a model's actual ceiling shows up as 'passes D/C, fails B/A', not a vague vibe.",
+  "tasks": [
+    {
+      "id": "d1_simple_edit",
+      "tier_target": "D",
+      "task_type": "SIMPLE_EDIT",
+      "prompt": "Write a Python function is_palindrome(s) that checks if a string is a palindrome, ignoring case, spaces, and punctuation. Docstring + one example. Just code.",
+      "pass_criteria": "Correct logic, handles case/spaces/punctuation, no crash on edge input."
+    },
+    {
+      "id": "d2_formatting",
+      "tier_target": "D",
+      "task_type": "SIMPLE_EDIT",
+      "prompt": "Convert this into a proper docstring-documented function with type hints: def add(a,b): return a+b",
+      "pass_criteria": "Adds type hints and a correct docstring without changing behavior."
+    },
+    {
+      "id": "c1_routine_implementation",
+      "tier_target": "C",
+      "task_type": "IMPLEMENTATION",
+      "prompt": "Write a Python function merge_intervals(intervals) that merges overlapping intervals (list of [start,end] pairs), handles unsorted input, empty list, and touching intervals like [1,2],[2,3]. Include a docstring. Just the code.",
+      "pass_criteria": "Sorts first, correctly merges touching intervals (<=, not <), handles empty list without crashing."
+    },
+    {
+      "id": "c2_documentation",
+      "tier_target": "C",
+      "task_type": "DOCUMENTATION",
+      "prompt": "Write a README section documenting a REST endpoint POST /api/orders that accepts {item_id, quantity} and returns 201 with the created order or 400 on invalid quantity. Include a curl example.",
+      "pass_criteria": "Accurate, well-structured, includes a correct curl example and error case."
+    },
+    {
+      "id": "b1_debugging",
+      "tier_target": "B",
+      "task_type": "DEBUGGING",
+      "prompt": "This Python function has a bug:\ndef get_user(users, user_id):\n    for u in users:\n        if u['id'] == user_id:\n            return u\n    return {}\nCallers do get_user(users, id)['name'] and crash with KeyError when not found instead of a clear error. Fix it properly (don't just return {}), explain the fix briefly, give the corrected code.",
+      "pass_criteria": "Replaces the silent {} with an explicit, clear failure mode (exception or Optional+documented None-check), not just a different silent default."
+    },
+    {
+      "id": "b2_refactor",
+      "tier_target": "B",
+      "task_type": "REFACTOR",
+      "prompt": "Refactor this to remove duplication and improve testability, explain your changes:\ndef process_order(order):\n    if order['type'] == 'digital':\n        send_email(order['user'], 'Digital order ready')\n        log_event('digital_order', order)\n    elif order['type'] == 'physical':\n        schedule_shipping(order)\n        send_email(order['user'], 'Physical order shipped')\n        log_event('physical_order', order)",
+      "pass_criteria": "Extracts shared logic (email+log) without breaking per-type behavior, explains the tradeoff, doesn't over-engineer."
+    },
+    {
+      "id": "a1_hard_reasoning",
+      "tier_target": "A",
+      "task_type": "SECURITY",
+      "prompt": "There's a race condition bug: two threads call increment() on a Counter class with self.value += 1, no lock. Explain exactly why += is not atomic in Python (bytecode level), then give a fixed thread-safe version using threading.Lock. Be precise and technical, not generic.",
+      "pass_criteria": "Correctly explains LOAD_ATTR/BINARY_OP/STORE_ATTR interleaving (not just 'GIL doesn't help'), gives a correct Lock-based fix, ideally adds real nuance (RLock, atomicity caveats)."
+    },
+    {
+      "id": "a2_architecture",
+      "tier_target": "A",
+      "task_type": "ARCHITECTURE",
+      "prompt": "We have a single Postgres table `events` (10M rows/day) that both real-time dashboards and nightly batch reports query, and it's now the top source of production incidents. Propose an architecture fix. Weigh at least 2 real options (e.g. read replica, CQRS/event stream, pre-aggregation) with concrete tradeoffs, not just 'use a message queue'.",
+      "pass_criteria": "Names specific real tradeoffs (cost, staleness, operational complexity), doesn't hand-wave, picks a recommendation and defends it."
+    }
+  ]
+}

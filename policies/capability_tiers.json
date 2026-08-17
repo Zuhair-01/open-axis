@@ -1,0 +1,21 @@
+{
+  "tiers": {
+    "A": {
+      "name": "FRONTIER_CRITICAL",
+      "task_types": ["ARCHITECTURE", "SECURITY", "MAJOR_REFACTOR", "DIFFICULT_DEBUGGING", "HIGH_RISK_DECISION"]
+    },
+    "B": {
+      "name": "SENIOR_ENGINEERING",
+      "task_types": ["IMPLEMENTATION", "API_WORK", "INTEGRATION", "MEDIUM_DEBUGGING", "PERFORMANCE"]
+    },
+    "C": {
+      "name": "WORKHORSE",
+      "task_types": ["ROUTINE_IMPLEMENTATION", "TESTING", "DOCUMENTATION", "ROUTINE_REFACTOR", "BOILERPLATE"]
+    },
+    "D": {
+      "name": "HIGH_VOLUME_CHEAP",
+      "task_types": ["SIMPLE_EDIT", "FORMATTING", "BASIC_TRANSFORM", "PREPROCESSING"]
+    }
+  },
+  "rule": "A task's required_capability_floor is set by its classified task_type. The router MUST NEVER select a model whose capability_tier is numerically/alphabetically below the floor (A > B > C > D, A is highest). If unknown model, treat as floor D only (never assume higher)."
+}

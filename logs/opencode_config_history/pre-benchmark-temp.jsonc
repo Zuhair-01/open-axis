@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  // No provider is authenticated yet (verified via `opencode auth list` = 0 credentials,
+  // 2026-08-15). Run `opencode auth login` to add Anthropic/OpenAI/etc. Until then,
+  // only the built-in opencode-zen free models are usable - see
+  // C:\AI\control-plane\registry\providers\providers.json for the verified list.
+  "permission": {
+    // Conservative starting defaults (spec Phase 22/23). Routine reads/edits/tests
+    // allowed; shell and destructive-adjacent ops ask first. Tune down to
+    // narrower `ask` patterns once you've confirmed the real day-to-day workflow -
+    // see C:\AI\control-plane\policies\permissions.json for the intended allow/ask/deny list.
+    "edit": "allow",
+    "bash": "ask",
+    "task": "allow",
+    "skill": "allow"
+  }
+}

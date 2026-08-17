@@ -1,0 +1,6 @@
+{
+  "retryable_errors": ["RATE_LIMIT", "QUOTA_EXHAUSTED", "TIMEOUT", "PROVIDER_DOWN", "MODEL_UNAVAILABLE"],
+  "non_retryable_errors": ["AUTH_FAILURE", "CONTEXT_OVERFLOW", "INVALID_REQUEST", "INSUFFICIENT_CAPABILITY"],
+  "max_retries_per_chain": 3,
+  "rule": "On a retryable error, move to the next candidate at the SAME capability floor or higher - never silently drop the floor. On a non-retryable error for a given model, drop that model from candidates but keep the floor. If candidates are exhausted, STOP and report 'Required capability unavailable' - do not downgrade."
+}

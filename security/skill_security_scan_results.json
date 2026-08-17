@@ -1,0 +1,494 @@
+[
+  {
+    "skill": "gcp-cloud-run",
+    "file": "C:\\Users\\Zoher\\.claude\\skills\\gcp-cloud-run\\SKILL.md",
+    "hits": [
+      "destructive root delete"
+    ]
+  },
+  {
+    "skill": "007",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\007\\SKILL.md",
+    "hits": [
+      "possible env exfiltration"
+    ]
+  },
+  {
+    "skill": "007",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\007\\references\\ai-agent-security.md",
+    "hits": [
+      "prompt injection marker"
+    ]
+  },
+  {
+    "skill": "007",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\007\\references\\owasp-checklists.md",
+    "hits": [
+      "prompt injection marker"
+    ]
+  },
+  {
+    "skill": "007",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\007\\scripts\\scanners\\dependency_scanner.py",
+    "hits": [
+      "pipe-to-shell download",
+      "possible env exfiltration"
+    ]
+  },
+  {
+    "skill": "agent-evaluation",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\agent-evaluation\\SKILL.md",
+    "hits": [
+      "prompt injection marker"
+    ]
+  },
+  {
+    "skill": "apify-actor-development",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\apify-actor-development\\SKILL.md",
+    "hits": [
+      "pipe-to-shell download"
+    ]
+  },
+  {
+    "skill": "apify-ultimate-scraper",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\apify-ultimate-scraper\\SKILL.md",
+    "hits": [
+      "possible env exfiltration"
+    ]
+  },
+  {
+    "skill": "audit-skills",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\audit-skills\\SKILL.md",
+    "hits": [
+      "pipe-to-shell download",
+      "destructive root delete"
+    ]
+  },
+  {
+    "skill": "aws-penetration-testing",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\aws-penetration-testing\\SKILL.md",
+    "hits": [
+      "security-disable instruction"
+    ]
+  },
+  {
+    "skill": "azure-monitor-opentelemetry-ts",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\azure-monitor-opentelemetry-ts\\SKILL.md",
+    "hits": [
+      "possible env exfiltration"
+    ]
+  },
+  {
+    "skill": "azure-resource-manager-redis-dotnet",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\azure-resource-manager-redis-dotnet\\SKILL.md",
+    "hits": [
+      "security-disable instruction"
+    ]
+  },
+  {
+    "skill": "bun-development",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\bun-development\\SKILL.md",
+    "hits": [
+      "pipe-to-shell download"
+    ]
+  },
+  {
+    "skill": "citation-management",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\citation-management\\scripts\\generate_schematic_ai.py",
+    "hits": [
+      "possible env exfiltration"
+    ]
+  },
+  {
+    "skill": "claude-code-expert",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\claude-code-expert\\SKILL.md",
+    "hits": [
+      "pipe-to-shell download"
+    ]
+  },
+  {
+    "skill": "claude-in-chrome-troubleshooting",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\claude-in-chrome-troubleshooting\\SKILL.md",
+    "hits": [
+      "destructive root delete"
+    ]
+  },
+  {
+    "skill": "clinical-decision-support",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\clinical-decision-support\\scripts\\generate_schematic_ai.py",
+    "hits": [
+      "possible env exfiltration"
+    ]
+  },
+  {
+    "skill": "cloud-penetration-testing",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\cloud-penetration-testing\\SKILL.md",
+    "hits": [
+      "pipe-to-shell download"
+    ]
+  },
+  {
+    "skill": "comfyui-gateway",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\comfyui-gateway\\references\\integration.md",
+    "hits": [
+      "possible env exfiltration"
+    ]
+  },
+  {
+    "skill": "configure-ecc",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\configure-ecc\\SKILL.md",
+    "hits": [
+      "destructive root delete"
+    ]
+  },
+  {
+    "skill": "configure-ecc",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\configure-ecc\\configure-ecc\\SKILL.md",
+    "hits": [
+      "destructive root delete"
+    ]
+  },
+  {
+    "skill": "configure-ecc",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\configure-ecc\\configure-ecc\\SKILL.md",
+    "hits": [
+      "destructive root delete"
+    ]
+  },
+  {
+    "skill": "convex",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\convex\\SKILL.md",
+    "hits": [
+      "possible env exfiltration"
+    ]
+  },
+  {
+    "skill": "cred-omega",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\cred-omega\\SKILL.md",
+    "hits": [
+      "possible env exfiltration"
+    ]
+  },
+  {
+    "skill": "electron-development",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\electron-development\\SKILL.md",
+    "hits": [
+      "security-disable instruction"
+    ]
+  },
+  {
+    "skill": "configure-ecc",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\everything-claude-code\\docs\\ja-JP\\skills\\configure-ecc\\SKILL.md",
+    "hits": [
+      "destructive root delete"
+    ]
+  },
+  {
+    "skill": "configure-ecc",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\everything-claude-code\\docs\\zh-CN\\skills\\configure-ecc\\SKILL.md",
+    "hits": [
+      "destructive root delete"
+    ]
+  },
+  {
+    "skill": "hookify-rules",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\everything-claude-code\\docs\\zh-CN\\skills\\hookify-rules\\SKILL.md",
+    "hits": [
+      "destructive root delete"
+    ]
+  },
+  {
+    "skill": "perl-security",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\everything-claude-code\\docs\\zh-CN\\skills\\perl-security\\SKILL.md",
+    "hits": [
+      "destructive root delete"
+    ]
+  },
+  {
+    "skill": "configure-ecc",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\everything-claude-code\\skills\\configure-ecc\\SKILL.md",
+    "hits": [
+      "destructive root delete"
+    ]
+  },
+  {
+    "skill": "hookify-rules",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\everything-claude-code\\skills\\hookify-rules\\SKILL.md",
+    "hits": [
+      "destructive root delete"
+    ]
+  },
+  {
+    "skill": "perl-security",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\everything-claude-code\\skills\\perl-security\\SKILL.md",
+    "hits": [
+      "destructive root delete"
+    ]
+  },
+  {
+    "skill": "evolution",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\evolution\\SKILL.md",
+    "hits": [
+      "pipe-to-shell download"
+    ]
+  },
+  {
+    "skill": "careful",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\gstack-careful\\SKILL.md",
+    "hits": [
+      "destructive root delete"
+    ]
+  },
+  {
+    "skill": "careful",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\gstack-careful\\bin\\check-careful.sh",
+    "hits": [
+      "destructive root delete"
+    ]
+  },
+  {
+    "skill": "hookify-rules",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\hookify-rules\\SKILL.md",
+    "hits": [
+      "destructive root delete"
+    ]
+  },
+  {
+    "skill": "hookify-rules",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\hookify-rules\\hookify-rules\\SKILL.md",
+    "hits": [
+      "destructive root delete"
+    ]
+  },
+  {
+    "skill": "hookify-rules",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\hookify-rules\\hookify-rules\\SKILL.md",
+    "hits": [
+      "destructive root delete"
+    ]
+  },
+  {
+    "skill": "hypothesis-generation",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\hypothesis-generation\\scripts\\generate_schematic_ai.py",
+    "hits": [
+      "possible env exfiltration"
+    ]
+  },
+  {
+    "skill": "latex-posters",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\latex-posters\\scripts\\generate_schematic_ai.py",
+    "hits": [
+      "possible env exfiltration"
+    ]
+  },
+  {
+    "skill": "linkerd-patterns",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\linkerd-patterns\\SKILL.md",
+    "hits": [
+      "pipe-to-shell download"
+    ]
+  },
+  {
+    "skill": "linux-privilege-escalation",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\linux-privilege-escalation\\SKILL.md",
+    "hits": [
+      "pipe-to-shell download"
+    ]
+  },
+  {
+    "skill": "literature-review",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\literature-review\\SKILL.md",
+    "hits": [
+      "pipe-to-shell download"
+    ]
+  },
+  {
+    "skill": "literature-review",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\literature-review\\scripts\\generate_schematic_ai.py",
+    "hits": [
+      "possible env exfiltration"
+    ]
+  },
+  {
+    "skill": "loki-mode",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\loki-mode\\CHANGELOG.md",
+    "hits": [
+      "destructive root delete"
+    ]
+  },
+  {
+    "skill": "loki-mode",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\loki-mode\\autonomy\\run.sh",
+    "hits": [
+      "destructive root delete"
+    ]
+  },
+  {
+    "skill": "markitdown",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\markitdown\\scripts\\generate_schematic_ai.py",
+    "hits": [
+      "possible env exfiltration"
+    ]
+  },
+  {
+    "skill": "nestjs-expert",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\nestjs-expert\\SKILL.md",
+    "hits": [
+      "possible env exfiltration"
+    ]
+  },
+  {
+    "skill": "parallel-web",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\parallel-web\\SKILL.md",
+    "hits": [
+      "pipe-to-shell download"
+    ]
+  },
+  {
+    "skill": "peer-review",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\peer-review\\scripts\\generate_schematic_ai.py",
+    "hits": [
+      "possible env exfiltration"
+    ]
+  },
+  {
+    "skill": "perl-security",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\perl-security\\SKILL.md",
+    "hits": [
+      "destructive root delete"
+    ]
+  },
+  {
+    "skill": "perl-security",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\perl-security\\perl-security\\SKILL.md",
+    "hits": [
+      "destructive root delete"
+    ]
+  },
+  {
+    "skill": "perl-security",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\perl-security\\perl-security\\SKILL.md",
+    "hits": [
+      "destructive root delete"
+    ]
+  },
+  {
+    "skill": "pptx-posters",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\pptx-posters\\scripts\\generate_schematic_ai.py",
+    "hits": [
+      "possible env exfiltration"
+    ]
+  },
+  {
+    "skill": "research-grants",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\research-grants\\scripts\\generate_schematic_ai.py",
+    "hits": [
+      "possible env exfiltration"
+    ]
+  },
+  {
+    "skill": "research-lookup",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\research-lookup\\SKILL.md",
+    "hits": [
+      "pipe-to-shell download"
+    ]
+  },
+  {
+    "skill": "research-lookup",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\research-lookup\\scripts\\generate_schematic_ai.py",
+    "hits": [
+      "possible env exfiltration"
+    ]
+  },
+  {
+    "skill": "scholar-evaluation",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\scholar-evaluation\\scripts\\generate_schematic_ai.py",
+    "hits": [
+      "possible env exfiltration"
+    ]
+  },
+  {
+    "skill": "scientific-critical-thinking",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\scientific-critical-thinking\\scripts\\generate_schematic_ai.py",
+    "hits": [
+      "possible env exfiltration"
+    ]
+  },
+  {
+    "skill": "scientific-schematics",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\scientific-schematics\\scripts\\generate_schematic_ai.py",
+    "hits": [
+      "possible env exfiltration"
+    ]
+  },
+  {
+    "skill": "scientific-slides",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\scientific-slides\\scripts\\generate_schematic_ai.py",
+    "hits": [
+      "possible env exfiltration"
+    ]
+  },
+  {
+    "skill": "scientific-writing",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\scientific-writing\\scripts\\generate_schematic_ai.py",
+    "hits": [
+      "possible env exfiltration"
+    ]
+  },
+  {
+    "skill": "sharp-edges",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\sharp-edges\\SKILL.md",
+    "hits": [
+      "security-disable instruction"
+    ]
+  },
+  {
+    "skill": "skill-audit",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\skill-audit\\SKILL.md",
+    "hits": [
+      "prompt injection marker"
+    ]
+  },
+  {
+    "skill": "treatment-plans",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\treatment-plans\\scripts\\generate_schematic_ai.py",
+    "hits": [
+      "possible env exfiltration"
+    ]
+  },
+  {
+    "skill": "uv-package-manager",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\uv-package-manager\\resources\\implementation-playbook.md",
+    "hits": [
+      "pipe-to-shell download"
+    ]
+  },
+  {
+    "skill": "varlock",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\varlock\\SKILL.md",
+    "hits": [
+      "pipe-to-shell download"
+    ]
+  },
+  {
+    "skill": "venue-templates",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\venue-templates\\scripts\\generate_schematic_ai.py",
+    "hits": [
+      "possible env exfiltration"
+    ]
+  },
+  {
+    "skill": "vulnerability-scanner",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\vulnerability-scanner\\SKILL.md",
+    "hits": [
+      "security-disable instruction"
+    ]
+  },
+  {
+    "skill": "wordpress-penetration-testing",
+    "file": "C:\\Users\\Zoher\\.claude\\skills-library\\wordpress-penetration-testing\\SKILL.md",
+    "hits": [
+      "prompt injection marker"
+    ]
+  }
+]

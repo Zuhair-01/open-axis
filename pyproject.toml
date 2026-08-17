@@ -1,0 +1,12 @@
+[project]
+name = "open-axis"
+version = "0.1.0"
+description = "A local control plane that routes engineering tasks across multiple AI CLIs (Claude Code, OpenCode, Codex)."
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

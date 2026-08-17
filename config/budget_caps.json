@@ -1,0 +1,9 @@
+{
+  "_comment": "Soft usage caps per provider, PER ROLLING WINDOW. Left null/unset honestly - neither Anthropic nor OpenAI expose a live 'remaining quota' API for subscription plans, so this control plane cannot know your real cap without you telling it. Fill in real numbers from your plan (e.g. Claude Code shows session/weekly limits in its own UI) to make the budget bars meaningful. Until filled in, status is UNKNOWN, not a fabricated percentage.",
+  "window_hours": 5,
+  "caps": {
+    "anthropic": { "requests_per_window": null, "tokens_per_window": null },
+    "openai": { "requests_per_window": null, "tokens_per_window": null },
+    "opencode-zen": { "requests_per_window": null, "tokens_per_window": null }
+  }
+}
