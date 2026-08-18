@@ -1,0 +1,18 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Open Axis">
+  <defs>
+    <radialGradient id="glow" cx="16%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#22e5ff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#0a0e17" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="220" rx="20" fill="#0a0e17"/>
+  <rect width="900" height="220" rx="20" fill="url(#glow)"/>
+  <g transform="translate(150,110)">
+    <g transform="rotate(0)"><path d="M0,-76 L9,-4 L-9,-4 Z" fill="#22e5ff"/></g>
+    <g transform="rotate(120)"><path d="M0,-76 L9,-4 L-9,-4 Z" fill="#4f8ef7"/></g>
+    <g transform="rotate(240)"><path d="M0,-76 L9,-4 L-9,-4 Z" fill="#a855f7"/></g>
+    <circle r="15" fill="#f8fafc"/>
+  </g>
+  <text x="272" y="112" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="33" font-weight="700" fill="#f8fafc">Open Axis</text>
+  <text x="274" y="146" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#22e5ff" opacity="0.85">Local multi-CLI control plane, deterministic routing + fallback</text>
+</svg>

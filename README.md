@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.svg" alt="Open Axis" width="100%"></p>
+
 # Open Axis
 
 **A local control plane that routes engineering tasks across multiple AI CLIs (Claude Code, OpenCode, Codex) — instead of you manually deciding which tool, which model, and what to do when one fails.**
