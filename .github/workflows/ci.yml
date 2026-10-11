@@ -1,0 +1,17 @@
+name: ci
+on:
+  push:
+    branches: [car-2026-10-11, master]
+  pull_request:
+jobs:
+  tests:
+    # The router and its tests use Windows paths, so this runs on Windows, not Linux.
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pytest
+      - name: Policy, smart router, model sync tests (no files from Zoher's machine)
+        run: python -m pytest -q tests/test_classifier_policy.py tests/test_smart_router.py tests/test_sync_models.py tests/test_ledger.py
