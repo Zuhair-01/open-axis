@@ -1,0 +1,192 @@
+{
+ "_doc": "Single source of routing policy for every engine (open-axis Python + zoher-router Claude mod). Edit here only. Tiers: A>B>C>D. Risk can only RAISE a floor.",
+ "task_type_keywords": {
+  "ARCHITECTURE": [
+   "\\barchitect",
+   "system design",
+   "\\bADR\\b",
+   "\\bmicroservices?\\b",
+   "\\bscalab",
+   "\\bmonolith",
+   "design a system",
+   "schema design"
+  ],
+  "SECURITY": [
+   "\\bsecurity\\b",
+   "\\bvulnerab",
+   "\\bCVE\\b",
+   "pentest",
+   "threat model",
+   "\\bexploit",
+   "\\bauth(entication|orization)?\\b.*(bug|flaw|bypass)",
+   "\\bencrypt",
+   "\\binjection\\b",
+   "\\bxss\\b",
+   "\\brace condition\\b"
+  ],
+  "DEBUGGING": [
+   "\\bdebug",
+   "\\bbug\\b",
+   "\\bcrash",
+   "\\bfails?\\b",
+   "stack trace",
+   "\\bbroken\\b",
+   "\\bnot working\\b",
+   "\\bexception\\b",
+   "\\berror\\b.*\\bwhy\\b",
+   "\\bunexpected behav",
+   "(?<!github )(?<!board )\\bissues?\\b",
+   "\\bwhy (did|does|do|is|was|are|this|it)\\b",
+   "\\b(doesn'?t|didn'?t|won'?t|isn'?t) work",
+   "\\bwent wrong\\b|\\bsomething.s wrong\\b"
+  ],
+  "REFACTOR": [
+   "\\brefactor",
+   "\\bclean\\s*up\\b",
+   "\\bsimplify\\b",
+   "\\bdry\\b.*code",
+   "reduce duplication",
+   "technical debt"
+  ],
+  "RESEARCH": [
+   "\\bresearch\\b",
+   "\\binvestigate\\b",
+   "compare .* options",
+   "\\btradeoffs?\\b",
+   "\\bpros and cons\\b",
+   "\\bvs\\.?\\b",
+   "which (is|should|approach)",
+   "\\bevaluate\\b",
+   "what('s| is) the (best|difference)"
+  ],
+  "DOCUMENTATION": [
+   "\\bdocs?\\b",
+   "\\breadme\\b",
+   "document",
+   "\\bcomment(s|ing)?\\b",
+   "\\bexplain\\b",
+   "\\bwrite up\\b"
+  ],
+  "TESTING": [
+   "\\btest(s|ing)?\\b",
+   "\\bpytest\\b",
+   "\\bjest\\b",
+   "\\bunit test",
+   "\\bcoverage\\b",
+   "\\bmock(s|ing)?\\b",
+   "\\be2e\\b",
+   "integration test"
+  ],
+  "DEVOPS": [
+   "\\bci/?cd\\b",
+   "\\bdeploy",
+   "\\bdocker",
+   "\\bkubernetes\\b",
+   "\\bpipeline\\b",
+   "\\binfrastructure\\b",
+   "\\bterraform\\b",
+   "\\brollout\\b"
+  ],
+  "SIMPLE_EDIT": [
+   "\\brename\\b",
+   "\\btypo\\b",
+   "\\bformat(ting)?\\b",
+   "\\btype hints?\\b",
+   "\\blint\\b",
+   "\\bstyle\\b.*fix"
+  ],
+  "IMPLEMENTATION": [
+   "\\bimplement",
+   "\\badd feature",
+   "\\bbuild\\b",
+   "\\bcreate\\b.*(function|endpoint|feature|class)",
+   "\\bapi\\b",
+   "\\bendpoint\\b",
+   "\\bintegrate\\b",
+   "\\bwrite a\\b.*(function|script|class)"
+  ],
+  "PERFORMANCE": [
+   "\\boptimi[sz]e\\b",
+   "\\bperformance\\b",
+   "\\bslow\\b",
+   "\\blatency\\b",
+   "\\bbottleneck\\b",
+   "\\bmemory leak\\b",
+   "\\bN\\+1\\b"
+  ]
+ },
+ "capability_floor_by_type": {
+  "ARCHITECTURE": "A",
+  "SECURITY": "A",
+  "DEBUGGING": "B",
+  "REFACTOR": "B",
+  "RESEARCH": "B",
+  "DOCUMENTATION": "C",
+  "TESTING": "C",
+  "DEVOPS": "B",
+  "SIMPLE_EDIT": "D",
+  "IMPLEMENTATION": "B",
+  "PERFORMANCE": "B",
+  "UNKNOWN": "C"
+ },
+ "risk_patterns": [
+  "\\bauth(entication|orization)?\\b",
+  "\\blog ?in\\b|\\bsign ?in\\b|\\bpassword\\b|\\bsession token\\b|\\bjwt\\b|\\boauth\\b",
+  "\\bpayment|\\bcheckout\\b|\\bbilling\\b|\\binvoice\\b|\\bstripe\\b|\\bshamcash\\b|\\bwebhook\\b|\\brefund\\b",
+  "\\bmigrat(e|ion)\\b|\\bschema change\\b|\\bdrop (table|column)\\b|\\balter table\\b",
+  "\\bdelete (all|user|data|account)|\\bwipe\\b|\\bpurge\\b|\\brm -rf\\b|\\bforce[- ]push\\b",
+  "\\bsecret|\\bapi[_ -]?key\\b|\\bcredential|\\.env\\b|\\bprivate key\\b",
+  "\\bdeploy|\\bproduction\\b|\\bprod\\b|\\brelease\\b|\\bvercel\\b",
+  "\\bpii\\b|\\bpersonal data\\b|\\bgdpr\\b|\\bphone numbers?\\b|\\bemails? of users\\b"
+ ],
+ "risk_floor": "A",
+ "escalate_patterns": ["\\bperfect(ed|ly)?\\b", "\\bprecise(ly)?\\b", "don'?t settle", "\\bstill (broken|wrong|failing|not)\\b", "\\b(try|did it) again\\b", "\\?\\?"],
+ "escalate_doc": "Insistence or repeat-failure wording: the in-session router raises the tier by one (never above A). Used by zoher-router only; one-shot dispatch ignores it.",
+ "effort_by_floor": {
+  "A": "high",
+  "B": "medium",
+  "C": "low",
+  "D": "low"
+ },
+ "critical_effort": {
+  "anthropic": "xhigh",
+  "openai": "high"
+ },
+ "critical_task_types": [
+  "SECURITY",
+  "HIGH_RISK_DECISION"
+ ],
+ "cascade": {
+  "allowed_task_types": [
+   "IMPLEMENTATION",
+   "TESTING",
+   "REFACTOR",
+   "SIMPLE_EDIT",
+   "DOCUMENTATION"
+  ],
+  "step_down": {
+   "B": "C",
+   "C": "D"
+  },
+  "never_below": "D",
+  "requires": "an automated oracle (project test suite detected by orchestrator/verify.py) and no risk hit"
+ },
+ "learning": {
+  "min_observations": 3,
+  "outcomes_log": "C:\\AI\\control-plane\\logs\\outcomes.jsonl"
+ },
+ "claude": {
+  "model_by_floor": {
+   "A": "claude-opus-5-5",
+   "B": "claude-sonnet-5-5",
+   "C": "claude-sonnet-5-5",
+   "D": "claude-haiku-5-5"
+  },
+  "subagent_model": "claude-haiku-5-5",
+  "model_switch": {
+   "min_tier_jump": 2,
+   "cold_cache_minutes": 55
+  },
+  "_why": "C stays on Sonnet in the main session: a Haiku switch costs a full cache re-read; effort low gives the saving instead. Subagents are Haiku only (Zoher 2026-10-11)."
+ }
+}

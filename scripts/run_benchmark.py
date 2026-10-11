@@ -28,14 +28,26 @@ def load_tasks(filter_ids=None):
     return tasks
 
 def run_one(model_id: str, task: dict) -> dict:
-    slug = model_id.replace("/", "__")
+    slug = model_id.replace("/", "__").replace(":", "--")
     out_path = OUT_DIR / f"{slug}__{task['id']}.md"
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    cmd = ["opencode", "run", "-m", model_id, task["prompt"]]
+    # Car P9 (2026-10-11): benchmark Codex and Claude through the same CLI flags the router dispatches with.
+    # Codex runs read-only in an empty scratch dir so a benchmark can never edit real files.
+    import shutil, tempfile
+    scratch = tempfile.mkdtemp(prefix="bench_")
+    if model_id.startswith("codex:"):
+        sys.path.insert(0, str(CP))
+        from adapters.cli_dispatch import _resolve  # same launcher as production (newline-safe)
+        cmd = _resolve(["codex", "exec", "--skip-git-repo-check", "-s", "read-only",
+                        "-m", model_id.split(":", 1)[1], task["prompt"]])
+    elif model_id.startswith("claude:"):
+        cmd = ["claude", "-p", "--model", model_id.split(":", 1)[1], task["prompt"]]
+    else:
+        cmd = ["opencode", "run", "-m", model_id, task["prompt"]]
     try:
-        r = subprocess.run(cmd, capture_output=True, text=True, timeout=180,
-                            encoding="utf-8", errors="replace")
+        r = subprocess.run(cmd, capture_output=True, text=True, timeout=300, cwd=scratch,
+                            stdin=subprocess.DEVNULL, encoding="utf-8", errors="replace")
         output = r.stdout or r.stderr
     except subprocess.TimeoutExpired:
         output = "TIMEOUT after 180s"

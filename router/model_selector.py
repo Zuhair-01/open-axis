@@ -37,7 +37,7 @@ def load_roles():
     roles = json.loads((CP / "policies/provider_roles.json").read_text(encoding="utf-8"))["roles"]
     return {r["provider_id"]: r for r in roles}
 
-def select_model(required_capability_floor: str) -> dict:
+def select_model(required_capability_floor: str, task_type: str = None) -> dict:
     models = load_models()
     roles = load_roles()
     floor_rank = _tier_rank(required_capability_floor)
@@ -113,6 +113,12 @@ def select_model(required_capability_floor: str) -> dict:
             _tier_rank(m["capability_tier"]) * -1,  # prefer stronger within same priority/cost when tied
         )
     stage2.sort(key=sort_key)
+    if task_type:  # Car P9: measured success re-orders only WITHIN a priority group (Claude stays saved for hard work)
+        from router.smart import rerank
+        groups = {}
+        for m in stage2:
+            groups.setdefault(_priority_rank(m["provider"]), []).append(m)
+        stage2 = [m for g in sorted(groups) for m in rerank(groups[g], task_type)]
 
     return {
         "selected": stage2[0],

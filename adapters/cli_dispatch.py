@@ -86,6 +86,22 @@ def _resolve(cmd: list) -> list:
     list, which mangles argument passing on Windows - tried that, made it worse)."""
     exe = shutil.which(cmd[0])
     if exe and exe.lower().endswith((".cmd", ".bat")):
+        # Real bug found 2026-10-11 (Car P9 benchmark): cmd.exe cuts an argument at its first newline, so every
+        # multi-line prompt sent to Codex arrived as line 1 only. npm shims just run `node <script>`; call that
+        # directly so CreateProcess passes arguments (newlines included) intact. cmd /c stays the fallback.
+        import re
+        try:
+            shim = open(exe, encoding="utf-8", errors="replace").read()
+        except OSError:
+            shim = ""
+        m = re.search(r'"%dp0%\\([^"]+\.(?:js|cjs|mjs))"', shim)
+        if m:
+            base = os.path.dirname(exe)
+            script = os.path.join(base, m.group(1))
+            node = os.path.join(base, "node.exe")
+            node = node if os.path.exists(node) else (shutil.which("node") or "node")
+            if os.path.exists(script):
+                return [node, script] + cmd[1:]
         return ["cmd", "/c", exe] + cmd[1:]
     return cmd
 
@@ -125,7 +141,7 @@ def build_handoff_prompt(task_id: str, new_instructions: str = None) -> str:
 
 def dispatch(task_id: str, provider: str, prompt: str, model_id: str = None,
              cwd: str = None, dry_run: bool = True, continue_session: bool = False,
-             timeout: int = 1800, cancel_event=None) -> dict:
+             timeout: int = 1800, cancel_event=None, effort: str = None) -> dict:
     """dry_run=True by default: builds the exact command and returns it
     without running anything. Set dry_run=False to actually execute - this
     runs a real CLI against real files, so it's opt-in, not automatic.
@@ -149,6 +165,16 @@ def dispatch(task_id: str, provider: str, prompt: str, model_id: str = None,
     cmd = list(CLI_COMMANDS[provider])
     if continue_session and provider == "anthropic":
         cmd = [cmd[0], "-c"] + cmd[1:]
+    # Real bug fixed 2026-10-11: anthropic/openai ignored model_id, so a task routed to Haiku ran on the
+    # session default and the usage log claimed savings that never happened. Flags verified via --help.
+    if provider == "anthropic" and model_id:
+        cmd += ["--model", model_id]
+    if provider == "anthropic" and effort:
+        cmd += ["--effort", effort]
+    if provider == "openai" and model_id:
+        cmd += ["-m", model_id]
+    if provider == "openai" and effort:
+        cmd += ["-c", f"model_reasoning_effort={effort}"]
     if provider.startswith("opencode") and model_id:
         cmd += ["-m", model_id]
     if provider == "ollama" and model_id:

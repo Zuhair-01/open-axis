@@ -7,7 +7,7 @@
       "model_id": "claude-opus-5",
       "display_name": "Opus 5",
       "capability_tier": "A",
-      "access_type": "SUBSCRIPTION_ACCESS via Claude Code CLI (verified: claude --model <alias> -p works directly, confirmed 2026-08-15) - dispatched via adapters/cli_dispatch.py, NOT through OpenCode",
+      "access_type": "NOT CONFIGURED (not offered by the engine on 2026-10-11; was: SUBSCRIPTION_ACCESS via Claude Code CLI (verified: claude --model <alias> -p wor)",
       "task_types": [
         "ARCHITECTURE",
         "SECURITY",
@@ -20,7 +20,7 @@
       "model_id": "claude-sonnet-5",
       "display_name": "Sonnet 5",
       "capability_tier": "B",
-      "access_type": "SUBSCRIPTION_ACCESS via Claude Code CLI (verified: claude --model <alias> -p works directly, confirmed 2026-08-15) - dispatched via adapters/cli_dispatch.py, NOT through OpenCode",
+      "access_type": "NOT CONFIGURED (not offered by the engine on 2026-10-11; was: SUBSCRIPTION_ACCESS via Claude Code CLI (verified: claude --model <alias> -p wor)",
       "task_types": [
         "IMPLEMENTATION",
         "REFACTOR",
@@ -33,7 +33,7 @@
       "model_id": "claude-haiku-4-5-20251001",
       "display_name": "Haiku 4.5",
       "capability_tier": "C",
-      "access_type": "SUBSCRIPTION_ACCESS via Claude Code CLI (verified: claude --model <alias> -p works directly, confirmed 2026-08-15) - dispatched via adapters/cli_dispatch.py, NOT through OpenCode",
+      "access_type": "NOT CONFIGURED (not offered by the engine on 2026-10-11; was: SUBSCRIPTION_ACCESS via Claude Code CLI (verified: claude --model <alias> -p wor)",
       "task_types": [
         "SIMPLE_EDIT",
         "DOCUMENTATION"
@@ -44,7 +44,7 @@
       "model_id": "claude-fable-5",
       "display_name": "Fable 5",
       "capability_tier": "UNKNOWN",
-      "access_type": "SUBSCRIPTION_ACCESS via Claude Code CLI (verified: claude --model <alias> -p works directly, confirmed 2026-08-15) - dispatched via adapters/cli_dispatch.py, NOT through OpenCode",
+      "access_type": "NOT CONFIGURED (not offered by the engine on 2026-10-11; was: SUBSCRIPTION_ACCESS via Claude Code CLI (verified: claude --model <alias> -p wor)",
       "task_types": [],
       "notes": "Capability profile not characterized this session - do not route critical tasks to it without benchmarking."
     },
@@ -62,7 +62,7 @@
       "model_id": "opencode/deepseek-v4-flash-free",
       "display_name": "DeepSeek V4 Flash (free)",
       "capability_tier": "UNKNOWN",
-      "access_type": "OPENCODE_ACCESS",
+      "access_type": "NOT CONFIGURED (not offered by the engine on 2026-10-11; was: OPENCODE_ACCESS)",
       "task_types": [],
       "notes": "Spot-tested 2026-08-15: TIMED OUT twice (60s and 150s) on a trivial formatting task. Real reliability failure, not untested - deliberately kept excluded from routing."
     },
@@ -89,7 +89,7 @@
       "model_id": "opencode-go/glm-5.1",
       "display_name": "glm-5.1",
       "capability_tier": "C",
-      "access_type": "SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via opencode auth list + opencode models)",
+      "access_type": "NOT CONFIGURED (not offered by the engine on 2026-10-11; was: SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via)",
       "task_types": [],
       "notes": "Spot-tested 2026-08-15: correct, thorough (added doctest examples unprompted) on a D-tier task. Quality clearly exceeds the bar for the task given, rated C."
     },
@@ -125,7 +125,7 @@
       "model_id": "opencode-go/grok-4.5",
       "display_name": "grok-4.5",
       "capability_tier": "UNKNOWN",
-      "access_type": "SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via opencode auth list + opencode models)",
+      "access_type": "NOT CONFIGURED (not offered by the engine on 2026-10-11; was: SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via)",
       "task_types": [],
       "notes": "Unbenchmarked - excluded from routing until a tier is assigned. Authenticated and callable right now, just not yet rated."
     },
@@ -143,7 +143,7 @@
       "model_id": "opencode-go/kimi-k2.6",
       "display_name": "kimi-k2.6",
       "capability_tier": "UNKNOWN",
-      "access_type": "SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via opencode auth list + opencode models)",
+      "access_type": "NOT CONFIGURED (not offered by the engine on 2026-10-11; was: SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via)",
       "task_types": [],
       "notes": "Unbenchmarked - excluded from routing until a tier is assigned. Authenticated and callable right now, just not yet rated."
     },
@@ -221,7 +221,7 @@
       "model_id": "opencode-go/qwen3.6-plus",
       "display_name": "qwen3.6-plus",
       "capability_tier": "UNKNOWN",
-      "access_type": "SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via opencode auth list + opencode models)",
+      "access_type": "NOT CONFIGURED (not offered by the engine on 2026-10-11; was: SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via)",
       "task_types": [],
       "notes": "Unbenchmarked - excluded from routing until a tier is assigned. Authenticated and callable right now, just not yet rated."
     },
@@ -230,7 +230,7 @@
       "model_id": "opencode-go/qwen3.7-max",
       "display_name": "qwen3.7-max",
       "capability_tier": "B",
-      "access_type": "SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via opencode auth list + opencode models)",
+      "access_type": "NOT CONFIGURED (not offered by the engine on 2026-10-11; was: SUBSCRIPTION_ACCESS via authenticated OpenCode Go (real, verified 2026-08-15 via)",
       "task_types": [
         "IMPLEMENTATION",
         "REFACTOR",
@@ -282,7 +282,7 @@
       "model_id": "llama3.1:8b",
       "display_name": "llama3.1:8b",
       "capability_tier": "UNKNOWN",
-      "access_type": "LOCAL_MODEL_ACCESS via Ollama",
+      "access_type": "NOT CONFIGURED (not offered by the engine on 2026-10-11; was: LOCAL_MODEL_ACCESS via Ollama)",
       "task_types": [],
       "notes": "Not yet benchmarked - excluded from routing until tested."
     },
@@ -309,7 +309,7 @@
       "model_id": "gemma4:latest",
       "display_name": "gemma4:latest",
       "capability_tier": "UNKNOWN",
-      "access_type": "LOCAL_MODEL_ACCESS via Ollama",
+      "access_type": "NOT CONFIGURED (not offered by the engine on 2026-10-11; was: LOCAL_MODEL_ACCESS via Ollama)",
       "task_types": [],
       "notes": "Not yet benchmarked - excluded from routing until tested."
     },
@@ -318,7 +318,7 @@
       "model_id": "gpt-5.6-terra",
       "display_name": "GPT-5.6 Terra (Codex default)",
       "capability_tier": "B",
-      "access_type": "SUBSCRIPTION_ACCESS via Codex CLI (ChatGPT+), verified 2026-08-15",
+      "access_type": "NOT CONFIGURED (not offered by the engine on 2026-10-11; was: SUBSCRIPTION_ACCESS via Codex CLI (ChatGPT+), verified 2026-08-15)",
       "task_types": [
         "IMPLEMENTATION",
         "REFACTOR",
@@ -326,6 +326,348 @@
         "DEBUGGING"
       ],
       "notes": "Spot-tested 2026-08-15: correct, idiomatic merge_intervals implementation (proper touching-interval handling via start > last_end, not >=). First real Codex/GPT leg data point. Real quirk found: interprets task_state OBJECTIVE-prefixed prompts literally when objective/prompt mismatch (test artifact, not a real-usage issue since they always match in production)."
+    },
+    {
+      "provider": "anthropic",
+      "model_id": "claude-opus-5-5",
+      "display_name": "Opus 5.5",
+      "capability_tier": "A",
+      "task_types": [
+        "ARCHITECTURE",
+        "SECURITY",
+        "DEBUGGING",
+        "RESEARCH"
+      ],
+      "access_type": "SUBSCRIPTION_ACCESS via Claude Code CLI (claude --model <id> -p) - dispatched via adapters/cli_dispatch.py, NOT through OpenCode, listed 2026-10-11"
+    },
+    {
+      "provider": "anthropic",
+      "model_id": "claude-sonnet-5-5",
+      "display_name": "Sonnet 5.5",
+      "capability_tier": "B",
+      "task_types": [
+        "IMPLEMENTATION",
+        "REFACTOR",
+        "TESTING",
+        "DOCUMENTATION"
+      ],
+      "access_type": "SUBSCRIPTION_ACCESS via Claude Code CLI (claude --model <id> -p) - dispatched via adapters/cli_dispatch.py, NOT through OpenCode, listed 2026-10-11"
+    },
+    {
+      "provider": "anthropic",
+      "model_id": "claude-haiku-5-5",
+      "display_name": "Haiku 5.5",
+      "capability_tier": "C",
+      "task_types": [
+        "SIMPLE_EDIT",
+        "DOCUMENTATION",
+        "ROUTINE_IMPLEMENTATION"
+      ],
+      "access_type": "SUBSCRIPTION_ACCESS via Claude Code CLI (claude --model <id> -p) - dispatched via adapters/cli_dispatch.py, NOT through OpenCode, listed 2026-10-11"
+    },
+    {
+      "provider": "anthropic",
+      "model_id": "claude-fable-5-1",
+      "display_name": "claude-fable-5-1",
+      "capability_tier": "UNKNOWN",
+      "access_type": "NOT CONFIGURED (Fable bills usage credits; needs Zoher's consent)",
+      "task_types": []
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/claude-haiku-5-5",
+      "display_name": "opencode-go/claude-haiku-5-5",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode Go subscription (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/deepseek-v4-flash-vision-exp",
+      "display_name": "opencode-go/deepseek-v4-flash-vision-exp",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode Go subscription (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/deepseek-v4.1-flash",
+      "display_name": "opencode-go/deepseek-v4.1-flash",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode Go subscription (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/glm-5.3-flash",
+      "display_name": "opencode-go/glm-5.3-flash",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode Go subscription (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/gpt-6-luna",
+      "display_name": "opencode-go/gpt-6-luna",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode Go subscription (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/grok-4.6",
+      "display_name": "opencode-go/grok-4.6",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode Go subscription (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/grok-4.7",
+      "display_name": "opencode-go/grok-4.7",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode Go subscription (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/hy4-preview",
+      "display_name": "opencode-go/hy4-preview",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode Go subscription (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/longcat-2.0",
+      "display_name": "opencode-go/longcat-2.0",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode Go subscription (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/longcat-2.5-preview-free",
+      "display_name": "opencode-go/longcat-2.5-preview-free",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode Go subscription (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/mimo-v2.6-flash",
+      "display_name": "opencode-go/mimo-v2.6-flash",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode Go subscription (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/mimo-v2.6-pro",
+      "display_name": "opencode-go/mimo-v2.6-pro",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode Go subscription (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/muse-spark-1.2-contributor",
+      "display_name": "opencode-go/muse-spark-1.2-contributor",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode Go subscription (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/muse-spark-1.3-contributor",
+      "display_name": "opencode-go/muse-spark-1.3-contributor",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode Go subscription (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/qwen3.8-flash",
+      "display_name": "opencode-go/qwen3.8-flash",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode Go subscription (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/space-bunny",
+      "display_name": "opencode-go/space-bunny",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode Go subscription (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-go",
+      "model_id": "opencode-go/step-5-preview-free",
+      "display_name": "opencode-go/step-5-preview-free",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode Go subscription (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-zen",
+      "model_id": "opencode/exo-free",
+      "display_name": "opencode/exo-free",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode free models (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-zen",
+      "model_id": "opencode/ling-3.0-flash-fin-free",
+      "display_name": "opencode/ling-3.0-flash-fin-free",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode free models (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-zen",
+      "model_id": "opencode/ling-3.1-flash-free",
+      "display_name": "opencode/ling-3.1-flash-free",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode free models (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-zen",
+      "model_id": "opencode/longcat-2.5-preview-free",
+      "display_name": "opencode/longcat-2.5-preview-free",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode free models (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-zen",
+      "model_id": "opencode/mimo-v2.6-flash-free",
+      "display_name": "opencode/mimo-v2.6-flash-free",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode free models (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-zen",
+      "model_id": "opencode/muse-spark-1.3-contributor-free",
+      "display_name": "opencode/muse-spark-1.3-contributor-free",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode free models (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-zen",
+      "model_id": "opencode/nemotron-3-ultra-free",
+      "display_name": "opencode/nemotron-3-ultra-free",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode free models (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-zen",
+      "model_id": "opencode/nemotron-3.5-lightning-free",
+      "display_name": "opencode/nemotron-3.5-lightning-free",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode free models (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-zen",
+      "model_id": "opencode/space-bunny-free",
+      "display_name": "opencode/space-bunny-free",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode free models (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "opencode-zen",
+      "model_id": "opencode/step-5-preview-free",
+      "display_name": "opencode/step-5-preview-free",
+      "capability_tier": "UNKNOWN",
+      "access_type": "OpenCode free models (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "ollama",
+      "model_id": "huihui_ai/qwen3-abliterated:8b-v2-q4_K_M",
+      "display_name": "huihui_ai/qwen3-abliterated:8b-v2-q4_K_M",
+      "capability_tier": "UNKNOWN",
+      "access_type": "LOCAL_MODEL_ACCESS via Ollama (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "ollama",
+      "model_id": "nomic-embed-text:latest",
+      "display_name": "nomic-embed-text:latest",
+      "capability_tier": "UNKNOWN",
+      "access_type": "LOCAL_MODEL_ACCESS via Ollama (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "ollama",
+      "model_id": "qwen-uncensored-before-32k:latest",
+      "display_name": "qwen-uncensored-before-32k:latest",
+      "capability_tier": "UNKNOWN",
+      "access_type": "LOCAL_MODEL_ACCESS via Ollama (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "ollama",
+      "model_id": "qwen-uncensored:latest",
+      "display_name": "qwen-uncensored:latest",
+      "capability_tier": "UNKNOWN",
+      "access_type": "LOCAL_MODEL_ACCESS via Ollama (listed 2026-10-11)",
+      "task_types": [],
+      "notes": "Unbenchmarked: never routed until scripts/run_benchmark.py + a human/Opus tier call."
+    },
+    {
+      "provider": "openai",
+      "model_id": "gpt-6-sol",
+      "display_name": "GPT-6 Sol (Codex default)",
+      "capability_tier": "A",
+      "access_type": "SUBSCRIPTION_ACCESS via Codex CLI (ChatGPT+), dispatched via adapters/cli_dispatch.py (node-direct launcher, newline-safe), verified 2026-10-11",
+      "task_types": [
+        "ARCHITECTURE",
+        "SECURITY",
+        "IMPLEMENTATION",
+        "REFACTOR",
+        "DEBUGGING",
+        "TESTING"
+      ],
+      "notes": "Benchmarked 2026-10-11 by Opus 5.5 against fixtures/benchmark_tasks.json (read-only sandbox): A 2/2 (race condition: correct bytecode interleaving + Lock fix; architecture: sourced tradeoffs + staged plan), B 2/2 (explicit LookupError; dependency-injected refactor keeping behavior), C 1.5/2 (README lacked error-case example), D 2/2. Earlier B failures were a harness bug (cmd.exe cut multi-line prompts), fixed in cli_dispatch._resolve. Reports: reports/benchmarks/codex--gpt-6-sol__*.md"
     }
-  ]
+  ],
+  "last_synced": "2026-10-11"
 }
