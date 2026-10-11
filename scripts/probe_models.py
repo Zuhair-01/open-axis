@@ -28,6 +28,10 @@ def probe(m: dict) -> dict:
     why = None if ok else (d.availability_failure(out) or ("no answer / failed: " + out.strip()[-160:], d.LIMIT_TTL_S))
     if why:
         d.mark_down(m["id"], why[0], why[1])
+    else:  # it answers now: lift any earlier down-mark (limit expired, CLI upgraded...)
+        h = d.load_health()
+        if h.pop(m["id"], None) is not None:
+            d.HEALTH.write_text(json.dumps(h, indent=1), encoding="utf-8")
     return {"model": m["id"], "ok": ok, "secs": round(time.time() - t0), "why": why[0] if why else None}
 
 
